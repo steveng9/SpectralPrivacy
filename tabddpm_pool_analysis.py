@@ -104,8 +104,52 @@ def rawloss_scores(runs, t_max=20):
     return np.stack(out)
 
 
-def analyze(k=10):
+def graph_rows(scores, M, runs, L, U, lam, dens, k, graph="gower"):
+    """Per-attack spectral statistics of mu_out, v and v's density residual on one record graph."""
     from sklearn.metrics import roc_auc_score
+    import analysis as A
+
+    rows, per_record = [], {}
+    for att, sc_ in scores.items():
+        Z = (sc_ - sc_.mean(1, keepdims=True)) / sc_.std(1, keepdims=True)
+        aucs = [roc_auc_score(m, z) for m, z in zip(M, Z)]
+        a, b = A.split_signals(Z, M, runs)
+        full = A.signals(Z, M, np.ones(len(runs), bool))
+        per_record[att] = full
+        prng = np.random.default_rng(0)
+        base = dict(attack=att, graph=graph, k=k, n_runs=len(runs), auc_mean=float(np.mean(aucs)), auc_sd=float(np.std(aucs)))
+        for sig in ("mu_out", "v", "v_std"):
+            rows.append({**base, "signal": sig, **A.spectral_stats(a[sig], b[sig], U, lam, L, prng)})
+        ra, _ = A.residualize(a["v"], dens)
+        rb, _ = A.residualize(b["v"], dens)
+        _, r2 = A.residualize(full["v"], dens)
+        rows.append({**base, "signal": "v_resid_density", "density_R2": r2, **A.spectral_stats(ra, rb, U, lam, L, prng)})
+        # H1 contrast with a run bootstrap: R_cross(v) - R_cross(mu_out); and the same for the density residual
+        brng = np.random.default_rng(1)
+        d_v, d_res = [], []
+        for _ in range(A.N_BOOT):
+            ba, bb = A.split_signals(Z, M, runs, brng)
+            d_v.append(A.cross_R(ba["v"], bb["v"], L) - A.cross_R(ba["mu_out"], bb["mu_out"], L))
+            d_res.append(A.cross_R(A.residualize(ba["v"], dens)[0], A.residualize(bb["v"], dens)[0], L) - 1.0)
+        for r_ in rows[-4:]:
+            if r_["signal"] == "v":
+                r_["H1_dR_boot_lo"], r_["H1_dR_boot_hi"] = np.nanpercentile(d_v, [2.5, 97.5])
+            if r_["signal"] == "v_resid_density":
+                r_["Rresid_minus1_boot_lo"], r_["Rresid_minus1_boot_hi"] = np.nanpercentile(d_res, [2.5, 97.5])
+        vr = next(r_ for r_ in rows[::-1] if r_["signal"] == "v")
+        mr = next(r_ for r_ in rows[::-1] if r_["signal"] == "mu_out")
+        rr = rows[-1]
+        print(f"  {att:8s} AUC={base['auc_mean']:.3f}±{base['auc_sd']:.3f}  r½(v)={vr['splithalf_r']:+.2f} "
+              f"Rx(v)={vr['R_cross']:.2f} [Δ vs μ_out CI {vr['H1_dR_boot_lo']:+.2f},{vr['H1_dR_boot_hi']:+.2f}] "
+              f"Rx(μ_out)={mr['R_cross']:.2f}  shares(v)={[round(vr[f'share_{x}'], 2) for x in A.BANDS]}  "
+              f"dens R²={r2:.2f}  resid: r½={rr['splithalf_r']:+.2f} Rx={rr['R_cross']:.2f} "
+              f"[Rx-1 CI {rr['Rresid_minus1_boot_lo']:+.2f},{rr['Rresid_minus1_boot_hi']:+.2f}] "
+              f"high={rr['share_high']:.2f} (p={rr['p_high_share_gt_null']:.3f})", flush=True)
+
+    return rows, per_record
+
+
+def analyze(k=10):
     import analysis as A
     import spectral_core as sc
 
@@ -140,43 +184,7 @@ def analyze(k=10):
     print(f"graph gower k={k}: {int(W.sum() / 2)} edges, {int((lam < 1e-8).sum())} component(s); "
           f"attribute roughness {min(ref.values()):.2f}-{max(ref.values()):.2f}", flush=True)
 
-    rows, per_record = [], {}
-    for att, sc_ in scores.items():
-        Z = (sc_ - sc_.mean(1, keepdims=True)) / sc_.std(1, keepdims=True)
-        aucs = [roc_auc_score(m, z) for m, z in zip(M, Z)]
-        a, b = A.split_signals(Z, M, runs)
-        full = A.signals(Z, M, np.ones(len(runs), bool))
-        per_record[att] = full
-        prng = np.random.default_rng(0)
-        base = dict(attack=att, k=k, n_runs=len(runs), auc_mean=float(np.mean(aucs)), auc_sd=float(np.std(aucs)))
-        for sig in ("mu_out", "v", "v_std"):
-            rows.append({**base, "signal": sig, **A.spectral_stats(a[sig], b[sig], U, lam, L, prng)})
-        ra, _ = A.residualize(a["v"], dens)
-        rb, _ = A.residualize(b["v"], dens)
-        _, r2 = A.residualize(full["v"], dens)
-        rows.append({**base, "signal": "v_resid_density", "density_R2": r2, **A.spectral_stats(ra, rb, U, lam, L, prng)})
-        # H1 contrast with a run bootstrap: R_cross(v) - R_cross(mu_out); and the same for the density residual
-        brng = np.random.default_rng(1)
-        d_v, d_res = [], []
-        for _ in range(A.N_BOOT):
-            ba, bb = A.split_signals(Z, M, runs, brng)
-            d_v.append(A.cross_R(ba["v"], bb["v"], L) - A.cross_R(ba["mu_out"], bb["mu_out"], L))
-            d_res.append(A.cross_R(A.residualize(ba["v"], dens)[0], A.residualize(bb["v"], dens)[0], L) - 1.0)
-        for r_ in rows[-4:]:
-            if r_["signal"] == "v":
-                r_["H1_dR_boot_lo"], r_["H1_dR_boot_hi"] = np.nanpercentile(d_v, [2.5, 97.5])
-            if r_["signal"] == "v_resid_density":
-                r_["Rresid_minus1_boot_lo"], r_["Rresid_minus1_boot_hi"] = np.nanpercentile(d_res, [2.5, 97.5])
-        vr = next(r_ for r_ in rows[::-1] if r_["signal"] == "v")
-        mr = next(r_ for r_ in rows[::-1] if r_["signal"] == "mu_out")
-        rr = rows[-1]
-        print(f"  {att:8s} AUC={base['auc_mean']:.3f}±{base['auc_sd']:.3f}  r½(v)={vr['splithalf_r']:+.2f} "
-              f"Rx(v)={vr['R_cross']:.2f} [Δ vs μ_out CI {vr['H1_dR_boot_lo']:+.2f},{vr['H1_dR_boot_hi']:+.2f}] "
-              f"Rx(μ_out)={mr['R_cross']:.2f}  shares(v)={[round(vr[f'share_{x}'], 2) for x in A.BANDS]}  "
-              f"dens R²={r2:.2f}  resid: r½={rr['splithalf_r']:+.2f} Rx={rr['R_cross']:.2f} "
-              f"[Rx-1 CI {rr['Rresid_minus1_boot_lo']:+.2f},{rr['Rresid_minus1_boot_hi']:+.2f}] "
-              f"high={rr['share_high']:.2f} (p={rr['p_high_share_gt_null']:.3f})", flush=True)
-
+    rows, per_record = graph_rows(scores, M, runs, L, U, lam, dens, k)
     OUT.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(rows).to_csv(OUT / f"summary_gower_k{k}.csv", index=False)
     np.savez(OUT / f"per_record_k{k}.npz", lam=lam, U=U[:, :10], pool_knn=pool_knn, pop_knn=pop_knn,

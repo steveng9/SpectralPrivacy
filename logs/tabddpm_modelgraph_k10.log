@@ -1,0 +1,16 @@
+graph gower k=10: 7297 edges, 1 component(s), 100% of edges shared with gower; spearman(own kNN dist, gower pop kNN)=+0.94
+  dcr      AUC=0.799±0.013  r½(v)=+0.82 Rx(v)=0.81 [Δ vs μ_out CI +0.09,+0.12] Rx(μ_out)=0.71  shares(v)=[0.57, 0.2, 0.23]  dens R²=0.53  resid: r½=+0.65 Rx=0.98 [Rx-1 CI -0.04,+0.00] high=0.31 (p=0.820)
+  melomia  AUC=0.633±0.017  r½(v)=+0.67 Rx(v)=0.88 [Δ vs μ_out CI -0.04,+0.02] Rx(μ_out)=0.89  shares(v)=[0.5, 0.22, 0.28]  dens R²=0.34  resid: r½=+0.54 Rx=0.96 [Rx-1 CI -0.08,-0.01] high=0.32 (p=0.750)
+  rawloss  AUC=0.539±0.019  r½(v)=+0.67 Rx(v)=0.95 [Δ vs μ_out CI +0.06,+0.11] Rx(μ_out)=0.86  shares(v)=[0.44, 0.23, 0.33]  dens R²=0.23  resid: r½=+0.60 Rx=0.94 [Rx-1 CI -0.10,-0.04] high=0.31 (p=0.800)
+graph ddpm_input k=10: 7065 edges, 1 component(s), 33% of edges shared with gower; spearman(own kNN dist, gower pop kNN)=+0.62
+  dcr      AUC=0.799±0.013  r½(v)=+0.82 Rx(v)=0.69 [Δ vs μ_out CI +0.13,+0.17] Rx(μ_out)=0.54  shares(v)=[0.65, 0.16, 0.19]  dens R²=0.53  resid: r½=+0.66 Rx=0.95 [Rx-1 CI -0.08,-0.02] high=0.32 (p=0.694)
+  melomia  AUC=0.633±0.017  r½(v)=+0.67 Rx(v)=0.70 [Δ vs μ_out CI -0.20,-0.11] Rx(μ_out)=0.85  shares(v)=[0.64, 0.15, 0.21]  dens R²=0.35  resid: r½=+0.54 Rx=0.92 [Rx-1 CI -0.12,-0.04] high=0.34 (p=0.404)
+  rawloss  AUC=0.539±0.019  r½(v)=+0.67 Rx(v)=0.78 [Δ vs μ_out CI +0.15,+0.24] Rx(μ_out)=0.58  shares(v)=[0.59, 0.16, 0.24]  dens R²=0.24  resid: r½=+0.59 Rx=0.89 [Rx-1 CI -0.16,-0.08] high=0.29 (p=0.896)
+graph ddpm_hidden k=10: 8979 edges, 1 component(s), 11% of edges shared with gower; spearman(own kNN dist, gower pop kNN)=+0.74
+  dcr      AUC=0.799±0.013  r½(v)=+0.82 Rx(v)=0.82 [Δ vs μ_out CI +0.10,+0.13] Rx(μ_out)=0.70  shares(v)=[0.55, 0.21, 0.25]  dens R²=0.53  resid: r½=+0.66 Rx=0.95 [Rx-1 CI -0.06,-0.03] high=0.32 (p=0.703)
+  melomia  AUC=0.633±0.017  r½(v)=+0.67 Rx(v)=0.83 [Δ vs μ_out CI -0.03,+0.01] Rx(μ_out)=0.85  shares(v)=[0.55, 0.22, 0.24]  dens R²=0.34  resid: r½=+0.54 Rx=0.93 [Rx-1 CI -0.10,-0.03] high=0.29 (p=0.935)
+  rawloss  AUC=0.539±0.019  r½(v)=+0.67 Rx(v)=0.84 [Δ vs μ_out CI +0.09,+0.15] Rx(μ_out)=0.72  shares(v)=[0.53, 0.21, 0.27]  dens R²=0.23  resid: r½=+0.60 Rx=0.92 [Rx-1 CI -0.12,-0.04] high=0.32 (p=0.706)
+graph ddpm_loss k=10: 6610 edges, 1 component(s), 3% of edges shared with gower; spearman(own kNN dist, gower pop kNN)=-0.19
+  dcr      AUC=0.799±0.013  r½(v)=+0.82 Rx(v)=0.67 [Δ vs μ_out CI +0.15,+0.20] Rx(μ_out)=0.50  shares(v)=[0.57, 0.27, 0.17]  dens R²=0.53  resid: r½=+0.65 Rx=0.94 [Rx-1 CI -0.08,-0.02] high=0.27 (p=0.991)
+  melomia  AUC=0.633±0.017  r½(v)=+0.67 Rx(v)=0.71 [Δ vs μ_out CI -0.13,-0.06] Rx(μ_out)=0.80  shares(v)=[0.53, 0.3, 0.17]  dens R²=0.34  resid: r½=+0.54 Rx=0.94 [Rx-1 CI -0.09,-0.02] high=0.28 (p=0.954)
+  rawloss  AUC=0.539±0.019  r½(v)=+0.67 Rx(v)=0.80 [Δ vs μ_out CI +0.10,+0.17] Rx(μ_out)=0.66  shares(v)=[0.45, 0.32, 0.23]  dens R²=0.23  resid: r½=+0.60 Rx=0.99 [Rx-1 CI -0.04,+0.03] high=0.30 (p=0.896)

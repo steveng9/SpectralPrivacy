@@ -59,4 +59,8 @@ Workers are single-threaded (`OMP/MKL/OPENBLAS=1`, JAX on CPU), so `--workers N`
 - `tabddpm_pool_analysis.py features --gpu 1` then `analyze --k {5,10,20}` → `results/tabddpm_pool/`.
   Result: per-record v is reliable (split-half r 0.82 DCR, 0.67 MeLoMIA); density explains 23–53% of it; the
   density residual is reliable (r½ ≈ 0.55–0.65) but ≈ white on the Gower graph (R× 0.91–0.99, high-band share at
-  null) — idiosyncratic per-record leakage, not high-frequency. Open: repeat with a model-embedding graph.
+  null) — idiosyncratic per-record leakage, not high-frequency.
+- `tabddpm_modelgraph.py refs|embed|analyze` — same statistics on graphs in TabDDPM's own geometry (4 reference
+  models trained on filler only): input encoding (lexicographic label codes → quantile-normal), denoiser hidden
+  layer, denoising-loss profile → `results/tabddpm_pool/summary_modelgraph_k*.csv`. These graphs share only 2–39% of
+  edges with Gower. Leftover leakage is at most slightly smooth there (R× 0.87–1.00), never rough; H1 not supported.

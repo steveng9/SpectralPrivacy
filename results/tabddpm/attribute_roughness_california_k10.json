@@ -1,0 +1,11 @@
+{
+ "MedInc": 0.102,
+ "HouseAge": 0.171,
+ "AveRooms": 0.099,
+ "AveBedrms": 0.126,
+ "Population": 0.175,
+ "AveOccup": 0.118,
+ "Latitude": 0.052,
+ "Longitude": 0.051,
+ "MedHouseVal": 0.097
+}

@@ -1,0 +1,409 @@
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+For Genetic-SD support, please install jax:pip install -U "jax[cuda12]"
+Training None -> data model from scratch
+Model params: {'num_classes': 0, 'is_y_cond': 'none', 'rtdl_params': {'d_layers': [512, 1024, 1024, 1024, 1024, 512], 'dropout': 0.0}, 'd_in': 15}
+mlp
+Step 500/200000 MLoss: 0.0 GLoss: 0.3125 Sum: 0.3125
+Step 1000/200000 MLoss: 0.0 GLoss: 0.2655 Sum: 0.2655
+Step 1500/200000 MLoss: 0.0 GLoss: 0.2439 Sum: 0.2439
+Step 2000/200000 MLoss: 0.0 GLoss: 0.2295 Sum: 0.2295
+Step 2500/200000 MLoss: 0.0 GLoss: 0.2164 Sum: 0.2164
+Step 3000/200000 MLoss: 0.0 GLoss: 0.2055 Sum: 0.2055
+Step 3500/200000 MLoss: 0.0 GLoss: 0.1998 Sum: 0.1998
+Step 4000/200000 MLoss: 0.0 GLoss: 0.1919 Sum: 0.1919
+Step 4500/200000 MLoss: 0.0 GLoss: 0.1869 Sum: 0.1869
+Step 5000/200000 MLoss: 0.0 GLoss: 0.1814 Sum: 0.1814
+Step 5500/200000 MLoss: 0.0 GLoss: 0.1799 Sum: 0.1799
+Step 6000/200000 MLoss: 0.0 GLoss: 0.1748 Sum: 0.1748
+Step 6500/200000 MLoss: 0.0 GLoss: 0.1719 Sum: 0.1719
+Step 7000/200000 MLoss: 0.0 GLoss: 0.1675 Sum: 0.1675
+Step 7500/200000 MLoss: 0.0 GLoss: 0.1644 Sum: 0.1644
+Step 8000/200000 MLoss: 0.0 GLoss: 0.1642 Sum: 0.1642
+Step 8500/200000 MLoss: 0.0 GLoss: 0.1614 Sum: 0.1614
+Step 9000/200000 MLoss: 0.0 GLoss: 0.158 Sum: 0.158
+Step 9500/200000 MLoss: 0.0 GLoss: 0.157 Sum: 0.157
+Step 10000/200000 MLoss: 0.0 GLoss: 0.1561 Sum: 0.1561
+Step 10500/200000 MLoss: 0.0 GLoss: 0.1535 Sum: 0.1535
+Step 11000/200000 MLoss: 0.0 GLoss: 0.151 Sum: 0.151
+Step 11500/200000 MLoss: 0.0 GLoss: 0.15 Sum: 0.15
+Step 12000/200000 MLoss: 0.0 GLoss: 0.1487 Sum: 0.1487
+Step 12500/200000 MLoss: 0.0 GLoss: 0.1484 Sum: 0.1484
+Step 13000/200000 MLoss: 0.0 GLoss: 0.1462 Sum: 0.1462
+Step 13500/200000 MLoss: 0.0 GLoss: 0.1467 Sum: 0.1467
+Step 14000/200000 MLoss: 0.0 GLoss: 0.1468 Sum: 0.1468
+Step 14500/200000 MLoss: 0.0 GLoss: 0.1447 Sum: 0.1447
+Step 15000/200000 MLoss: 0.0 GLoss: 0.1435 Sum: 0.1435
+Step 15500/200000 MLoss: 0.0 GLoss: 0.1428 Sum: 0.1428
+Step 16000/200000 MLoss: 0.0 GLoss: 0.1419 Sum: 0.1419
+Step 16500/200000 MLoss: 0.0 GLoss: 0.1409 Sum: 0.1409
+Step 17000/200000 MLoss: 0.0 GLoss: 0.1423 Sum: 0.1423
+Step 17500/200000 MLoss: 0.0 GLoss: 0.1394 Sum: 0.1394
+Step 18000/200000 MLoss: 0.0 GLoss: 0.1394 Sum: 0.1394
+Step 18500/200000 MLoss: 0.0 GLoss: 0.1381 Sum: 0.1381
+Step 19000/200000 MLoss: 0.0 GLoss: 0.1377 Sum: 0.1377
+Step 19500/200000 MLoss: 0.0 GLoss: 0.1379 Sum: 0.1379
+Step 20000/200000 MLoss: 0.0 GLoss: 0.1383 Sum: 0.1383
+Step 20500/200000 MLoss: 0.0 GLoss: 0.1358 Sum: 0.1358
+Step 21000/200000 MLoss: 0.0 GLoss: 0.1364 Sum: 0.1364
+Step 21500/200000 MLoss: 0.0 GLoss: 0.1351 Sum: 0.1351
+Step 22000/200000 MLoss: 0.0 GLoss: 0.1359 Sum: 0.1359
+Step 22500/200000 MLoss: 0.0 GLoss: 0.1342 Sum: 0.1342
+Step 23000/200000 MLoss: 0.0 GLoss: 0.1329 Sum: 0.1329
+Step 23500/200000 MLoss: 0.0 GLoss: 0.1331 Sum: 0.1331
+Step 24000/200000 MLoss: 0.0 GLoss: 0.1345 Sum: 0.1345
+Step 24500/200000 MLoss: 0.0 GLoss: 0.1325 Sum: 0.1325
+Step 25000/200000 MLoss: 0.0 GLoss: 0.1327 Sum: 0.1327
+Step 25500/200000 MLoss: 0.0 GLoss: 0.1315 Sum: 0.1315
+Step 26000/200000 MLoss: 0.0 GLoss: 0.1312 Sum: 0.1312
+Step 26500/200000 MLoss: 0.0 GLoss: 0.1311 Sum: 0.1311
+Step 27000/200000 MLoss: 0.0 GLoss: 0.1306 Sum: 0.1306
+Step 27500/200000 MLoss: 0.0 GLoss: 0.1294 Sum: 0.1294
+Step 28000/200000 MLoss: 0.0 GLoss: 0.1286 Sum: 0.1286
+Step 28500/200000 MLoss: 0.0 GLoss: 0.1284 Sum: 0.1284
+Step 29000/200000 MLoss: 0.0 GLoss: 0.1286 Sum: 0.1286
+Step 29500/200000 MLoss: 0.0 GLoss: 0.1277 Sum: 0.1277
+Step 30000/200000 MLoss: 0.0 GLoss: 0.1284 Sum: 0.1284
+Step 30500/200000 MLoss: 0.0 GLoss: 0.1276 Sum: 0.1276
+Step 31000/200000 MLoss: 0.0 GLoss: 0.1289 Sum: 0.1289
+Step 31500/200000 MLoss: 0.0 GLoss: 0.1271 Sum: 0.1271
+Step 32000/200000 MLoss: 0.0 GLoss: 0.1278 Sum: 0.1278
+Step 32500/200000 MLoss: 0.0 GLoss: 0.1265 Sum: 0.1265
+Step 33000/200000 MLoss: 0.0 GLoss: 0.1261 Sum: 0.1261
+Step 33500/200000 MLoss: 0.0 GLoss: 0.1247 Sum: 0.1247
+Step 34000/200000 MLoss: 0.0 GLoss: 0.1262 Sum: 0.1262
+Step 34500/200000 MLoss: 0.0 GLoss: 0.1238 Sum: 0.1238
+Step 35000/200000 MLoss: 0.0 GLoss: 0.1259 Sum: 0.1259
+Step 35500/200000 MLoss: 0.0 GLoss: 0.1252 Sum: 0.1252
+Step 36000/200000 MLoss: 0.0 GLoss: 0.1241 Sum: 0.1241
+Step 36500/200000 MLoss: 0.0 GLoss: 0.1246 Sum: 0.1246
+Step 37000/200000 MLoss: 0.0 GLoss: 0.1252 Sum: 0.1252
+Step 37500/200000 MLoss: 0.0 GLoss: 0.1249 Sum: 0.1249
+Step 38000/200000 MLoss: 0.0 GLoss: 0.1233 Sum: 0.1233
+Step 38500/200000 MLoss: 0.0 GLoss: 0.1243 Sum: 0.1243
+Step 39000/200000 MLoss: 0.0 GLoss: 0.1226 Sum: 0.1226
+Step 39500/200000 MLoss: 0.0 GLoss: 0.1228 Sum: 0.1228
+Step 40000/200000 MLoss: 0.0 GLoss: 0.1236 Sum: 0.1236
+Step 40500/200000 MLoss: 0.0 GLoss: 0.1232 Sum: 0.1232
+Step 41000/200000 MLoss: 0.0 GLoss: 0.1222 Sum: 0.1222
+Step 41500/200000 MLoss: 0.0 GLoss: 0.1215 Sum: 0.1215
+Step 42000/200000 MLoss: 0.0 GLoss: 0.1223 Sum: 0.1223
+Step 42500/200000 MLoss: 0.0 GLoss: 0.1222 Sum: 0.1222
+Step 43000/200000 MLoss: 0.0 GLoss: 0.1219 Sum: 0.1219
+Step 43500/200000 MLoss: 0.0 GLoss: 0.1229 Sum: 0.1229
+Step 44000/200000 MLoss: 0.0 GLoss: 0.1215 Sum: 0.1215
+Step 44500/200000 MLoss: 0.0 GLoss: 0.1214 Sum: 0.1214
+Step 45000/200000 MLoss: 0.0 GLoss: 0.1208 Sum: 0.1208
+Step 45500/200000 MLoss: 0.0 GLoss: 0.1209 Sum: 0.1209
+Step 46000/200000 MLoss: 0.0 GLoss: 0.1209 Sum: 0.1209
+Step 46500/200000 MLoss: 0.0 GLoss: 0.1214 Sum: 0.1214
+Step 47000/200000 MLoss: 0.0 GLoss: 0.1198 Sum: 0.1198
+Step 47500/200000 MLoss: 0.0 GLoss: 0.1201 Sum: 0.1201
+Step 48000/200000 MLoss: 0.0 GLoss: 0.1198 Sum: 0.1198
+Step 48500/200000 MLoss: 0.0 GLoss: 0.1194 Sum: 0.1194
+Step 49000/200000 MLoss: 0.0 GLoss: 0.1195 Sum: 0.1195
+Step 49500/200000 MLoss: 0.0 GLoss: 0.1195 Sum: 0.1195
+Step 50000/200000 MLoss: 0.0 GLoss: 0.119 Sum: 0.119
+Step 50500/200000 MLoss: 0.0 GLoss: 0.1197 Sum: 0.1197
+Step 51000/200000 MLoss: 0.0 GLoss: 0.1187 Sum: 0.1187
+Step 51500/200000 MLoss: 0.0 GLoss: 0.1185 Sum: 0.1185
+Step 52000/200000 MLoss: 0.0 GLoss: 0.12 Sum: 0.12
+Step 52500/200000 MLoss: 0.0 GLoss: 0.1185 Sum: 0.1185
+Step 53000/200000 MLoss: 0.0 GLoss: 0.1191 Sum: 0.1191
+Step 53500/200000 MLoss: 0.0 GLoss: 0.1192 Sum: 0.1192
+Step 54000/200000 MLoss: 0.0 GLoss: 0.1193 Sum: 0.1193
+Step 54500/200000 MLoss: 0.0 GLoss: 0.1172 Sum: 0.1172
+Step 55000/200000 MLoss: 0.0 GLoss: 0.1197 Sum: 0.1197
+Step 55500/200000 MLoss: 0.0 GLoss: 0.1178 Sum: 0.1178
+Step 56000/200000 MLoss: 0.0 GLoss: 0.1181 Sum: 0.1181
+Step 56500/200000 MLoss: 0.0 GLoss: 0.1177 Sum: 0.1177
+Step 57000/200000 MLoss: 0.0 GLoss: 0.1178 Sum: 0.1178
+Step 57500/200000 MLoss: 0.0 GLoss: 0.1173 Sum: 0.1173
+Step 58000/200000 MLoss: 0.0 GLoss: 0.1174 Sum: 0.1174
+Step 58500/200000 MLoss: 0.0 GLoss: 0.1188 Sum: 0.1188
+Step 59000/200000 MLoss: 0.0 GLoss: 0.1165 Sum: 0.1165
+Step 59500/200000 MLoss: 0.0 GLoss: 0.1189 Sum: 0.1189
+Step 60000/200000 MLoss: 0.0 GLoss: 0.1172 Sum: 0.1172
+Step 60500/200000 MLoss: 0.0 GLoss: 0.1168 Sum: 0.1168
+Step 61000/200000 MLoss: 0.0 GLoss: 0.1172 Sum: 0.1172
+Step 61500/200000 MLoss: 0.0 GLoss: 0.1174 Sum: 0.1174
+Step 62000/200000 MLoss: 0.0 GLoss: 0.1173 Sum: 0.1173
+Step 62500/200000 MLoss: 0.0 GLoss: 0.1156 Sum: 0.1156
+Step 63000/200000 MLoss: 0.0 GLoss: 0.1163 Sum: 0.1163
+Step 63500/200000 MLoss: 0.0 GLoss: 0.1153 Sum: 0.1153
+Step 64000/200000 MLoss: 0.0 GLoss: 0.1173 Sum: 0.1173
+Step 64500/200000 MLoss: 0.0 GLoss: 0.1157 Sum: 0.1157
+Step 65000/200000 MLoss: 0.0 GLoss: 0.116 Sum: 0.116
+Step 65500/200000 MLoss: 0.0 GLoss: 0.1157 Sum: 0.1157
+Step 66000/200000 MLoss: 0.0 GLoss: 0.1158 Sum: 0.1158
+Step 66500/200000 MLoss: 0.0 GLoss: 0.115 Sum: 0.115
+Step 67000/200000 MLoss: 0.0 GLoss: 0.1159 Sum: 0.1159
+Step 67500/200000 MLoss: 0.0 GLoss: 0.115 Sum: 0.115
+Step 68000/200000 MLoss: 0.0 GLoss: 0.1161 Sum: 0.1161
+Step 68500/200000 MLoss: 0.0 GLoss: 0.1142 Sum: 0.1142
+Step 69000/200000 MLoss: 0.0 GLoss: 0.1151 Sum: 0.1151
+Step 69500/200000 MLoss: 0.0 GLoss: 0.1149 Sum: 0.1149
+Step 70000/200000 MLoss: 0.0 GLoss: 0.1153 Sum: 0.1153
+Step 70500/200000 MLoss: 0.0 GLoss: 0.1148 Sum: 0.1148
+Step 71000/200000 MLoss: 0.0 GLoss: 0.1159 Sum: 0.1159
+Step 71500/200000 MLoss: 0.0 GLoss: 0.114 Sum: 0.114
+Step 72000/200000 MLoss: 0.0 GLoss: 0.1148 Sum: 0.1148
+Step 72500/200000 MLoss: 0.0 GLoss: 0.1132 Sum: 0.1132
+Step 73000/200000 MLoss: 0.0 GLoss: 0.1144 Sum: 0.1144
+Step 73500/200000 MLoss: 0.0 GLoss: 0.1145 Sum: 0.1145
+Step 74000/200000 MLoss: 0.0 GLoss: 0.1137 Sum: 0.1137
+Step 74500/200000 MLoss: 0.0 GLoss: 0.113 Sum: 0.113
+Step 75000/200000 MLoss: 0.0 GLoss: 0.1144 Sum: 0.1144
+Step 75500/200000 MLoss: 0.0 GLoss: 0.1131 Sum: 0.1131
+Step 76000/200000 MLoss: 0.0 GLoss: 0.114 Sum: 0.114
+Step 76500/200000 MLoss: 0.0 GLoss: 0.1127 Sum: 0.1127
+Step 77000/200000 MLoss: 0.0 GLoss: 0.1125 Sum: 0.1125
+Step 77500/200000 MLoss: 0.0 GLoss: 0.113 Sum: 0.113
+Step 78000/200000 MLoss: 0.0 GLoss: 0.1125 Sum: 0.1125
+Step 78500/200000 MLoss: 0.0 GLoss: 0.1135 Sum: 0.1135
+Step 79000/200000 MLoss: 0.0 GLoss: 0.1138 Sum: 0.1138
+Step 79500/200000 MLoss: 0.0 GLoss: 0.1121 Sum: 0.1121
+Step 80000/200000 MLoss: 0.0 GLoss: 0.1132 Sum: 0.1132
+Step 80500/200000 MLoss: 0.0 GLoss: 0.1128 Sum: 0.1128
+Step 81000/200000 MLoss: 0.0 GLoss: 0.1134 Sum: 0.1134
+Step 81500/200000 MLoss: 0.0 GLoss: 0.1134 Sum: 0.1134
+Step 82000/200000 MLoss: 0.0 GLoss: 0.1123 Sum: 0.1123
+Step 82500/200000 MLoss: 0.0 GLoss: 0.113 Sum: 0.113
+Step 83000/200000 MLoss: 0.0 GLoss: 0.1134 Sum: 0.1134
+Step 83500/200000 MLoss: 0.0 GLoss: 0.1117 Sum: 0.1117
+Step 84000/200000 MLoss: 0.0 GLoss: 0.1139 Sum: 0.1139
+Step 84500/200000 MLoss: 0.0 GLoss: 0.1117 Sum: 0.1117
+Step 85000/200000 MLoss: 0.0 GLoss: 0.1117 Sum: 0.1117
+Step 85500/200000 MLoss: 0.0 GLoss: 0.1123 Sum: 0.1123
+Step 86000/200000 MLoss: 0.0 GLoss: 0.1124 Sum: 0.1124
+Step 86500/200000 MLoss: 0.0 GLoss: 0.1114 Sum: 0.1114
+Step 87000/200000 MLoss: 0.0 GLoss: 0.113 Sum: 0.113
+Step 87500/200000 MLoss: 0.0 GLoss: 0.1113 Sum: 0.1113
+Step 88000/200000 MLoss: 0.0 GLoss: 0.1131 Sum: 0.1131
+Step 88500/200000 MLoss: 0.0 GLoss: 0.1117 Sum: 0.1117
+Step 89000/200000 MLoss: 0.0 GLoss: 0.1114 Sum: 0.1114
+Step 89500/200000 MLoss: 0.0 GLoss: 0.1114 Sum: 0.1114
+Step 90000/200000 MLoss: 0.0 GLoss: 0.1122 Sum: 0.1122
+Step 90500/200000 MLoss: 0.0 GLoss: 0.1117 Sum: 0.1117
+Step 91000/200000 MLoss: 0.0 GLoss: 0.1116 Sum: 0.1116
+Step 91500/200000 MLoss: 0.0 GLoss: 0.112 Sum: 0.112
+Step 92000/200000 MLoss: 0.0 GLoss: 0.1117 Sum: 0.1117
+Step 92500/200000 MLoss: 0.0 GLoss: 0.1119 Sum: 0.1119
+Step 93000/200000 MLoss: 0.0 GLoss: 0.1116 Sum: 0.1116
+Step 93500/200000 MLoss: 0.0 GLoss: 0.1113 Sum: 0.1113
+Step 94000/200000 MLoss: 0.0 GLoss: 0.1108 Sum: 0.1108
+Step 94500/200000 MLoss: 0.0 GLoss: 0.1115 Sum: 0.1115
+Step 95000/200000 MLoss: 0.0 GLoss: 0.1113 Sum: 0.1113
+Step 95500/200000 MLoss: 0.0 GLoss: 0.1108 Sum: 0.1108
+Step 96000/200000 MLoss: 0.0 GLoss: 0.1113 Sum: 0.1113
+Step 96500/200000 MLoss: 0.0 GLoss: 0.1099 Sum: 0.1099
+Step 97000/200000 MLoss: 0.0 GLoss: 0.1112 Sum: 0.1112
+Step 97500/200000 MLoss: 0.0 GLoss: 0.1099 Sum: 0.1099
+Step 98000/200000 MLoss: 0.0 GLoss: 0.1111 Sum: 0.1111
+Step 98500/200000 MLoss: 0.0 GLoss: 0.1105 Sum: 0.1105
+Step 99000/200000 MLoss: 0.0 GLoss: 0.1104 Sum: 0.1104
+Step 99500/200000 MLoss: 0.0 GLoss: 0.1104 Sum: 0.1104
+Step 100000/200000 MLoss: 0.0 GLoss: 0.1103 Sum: 0.1103
+Step 100500/200000 MLoss: 0.0 GLoss: 0.1104 Sum: 0.1104
+Step 101000/200000 MLoss: 0.0 GLoss: 0.1092 Sum: 0.1092
+Step 101500/200000 MLoss: 0.0 GLoss: 0.1099 Sum: 0.1099
+Step 102000/200000 MLoss: 0.0 GLoss: 0.1092 Sum: 0.1092
+Step 102500/200000 MLoss: 0.0 GLoss: 0.1097 Sum: 0.1097
+Step 103000/200000 MLoss: 0.0 GLoss: 0.1099 Sum: 0.1099
+Step 103500/200000 MLoss: 0.0 GLoss: 0.1097 Sum: 0.1097
+Step 104000/200000 MLoss: 0.0 GLoss: 0.1095 Sum: 0.1095
+Step 104500/200000 MLoss: 0.0 GLoss: 0.1092 Sum: 0.1092
+Step 105000/200000 MLoss: 0.0 GLoss: 0.11 Sum: 0.11
+Step 105500/200000 MLoss: 0.0 GLoss: 0.1093 Sum: 0.1093
+Step 106000/200000 MLoss: 0.0 GLoss: 0.1089 Sum: 0.1089
+Step 106500/200000 MLoss: 0.0 GLoss: 0.1086 Sum: 0.1086
+Step 107000/200000 MLoss: 0.0 GLoss: 0.109 Sum: 0.109
+Step 107500/200000 MLoss: 0.0 GLoss: 0.109 Sum: 0.109
+Step 108000/200000 MLoss: 0.0 GLoss: 0.1092 Sum: 0.1092
+Step 108500/200000 MLoss: 0.0 GLoss: 0.1095 Sum: 0.1095
+Step 109000/200000 MLoss: 0.0 GLoss: 0.1091 Sum: 0.1091
+Step 109500/200000 MLoss: 0.0 GLoss: 0.1089 Sum: 0.1089
+Step 110000/200000 MLoss: 0.0 GLoss: 0.1098 Sum: 0.1098
+Step 110500/200000 MLoss: 0.0 GLoss: 0.1095 Sum: 0.1095
+Step 111000/200000 MLoss: 0.0 GLoss: 0.1087 Sum: 0.1087
+Step 111500/200000 MLoss: 0.0 GLoss: 0.1093 Sum: 0.1093
+Step 112000/200000 MLoss: 0.0 GLoss: 0.1099 Sum: 0.1099
+Step 112500/200000 MLoss: 0.0 GLoss: 0.1088 Sum: 0.1088
+Step 113000/200000 MLoss: 0.0 GLoss: 0.1081 Sum: 0.1081
+Step 113500/200000 MLoss: 0.0 GLoss: 0.109 Sum: 0.109
+Step 114000/200000 MLoss: 0.0 GLoss: 0.1078 Sum: 0.1078
+Step 114500/200000 MLoss: 0.0 GLoss: 0.1088 Sum: 0.1088
+Step 115000/200000 MLoss: 0.0 GLoss: 0.1082 Sum: 0.1082
+Step 115500/200000 MLoss: 0.0 GLoss: 0.1084 Sum: 0.1084
+Step 116000/200000 MLoss: 0.0 GLoss: 0.1083 Sum: 0.1083
+Step 116500/200000 MLoss: 0.0 GLoss: 0.1093 Sum: 0.1093
+Step 117000/200000 MLoss: 0.0 GLoss: 0.1075 Sum: 0.1075
+Step 117500/200000 MLoss: 0.0 GLoss: 0.1087 Sum: 0.1087
+Step 118000/200000 MLoss: 0.0 GLoss: 0.1073 Sum: 0.1073
+Step 118500/200000 MLoss: 0.0 GLoss: 0.1077 Sum: 0.1077
+Step 119000/200000 MLoss: 0.0 GLoss: 0.107 Sum: 0.107
+Step 119500/200000 MLoss: 0.0 GLoss: 0.1066 Sum: 0.1066
+Step 120000/200000 MLoss: 0.0 GLoss: 0.107 Sum: 0.107
+Step 120500/200000 MLoss: 0.0 GLoss: 0.1074 Sum: 0.1074
+Step 121000/200000 MLoss: 0.0 GLoss: 0.1062 Sum: 0.1062
+Step 121500/200000 MLoss: 0.0 GLoss: 0.1071 Sum: 0.1071
+Step 122000/200000 MLoss: 0.0 GLoss: 0.1071 Sum: 0.1071
+Step 122500/200000 MLoss: 0.0 GLoss: 0.1071 Sum: 0.1071
+Step 123000/200000 MLoss: 0.0 GLoss: 0.1066 Sum: 0.1066
+Step 123500/200000 MLoss: 0.0 GLoss: 0.1067 Sum: 0.1067
+Step 124000/200000 MLoss: 0.0 GLoss: 0.1068 Sum: 0.1068
+Step 124500/200000 MLoss: 0.0 GLoss: 0.108 Sum: 0.108
+Step 125000/200000 MLoss: 0.0 GLoss: 0.1057 Sum: 0.1057
+Step 125500/200000 MLoss: 0.0 GLoss: 0.1075 Sum: 0.1075
+Step 126000/200000 MLoss: 0.0 GLoss: 0.1061 Sum: 0.1061
+Step 126500/200000 MLoss: 0.0 GLoss: 0.1064 Sum: 0.1064
+Step 127000/200000 MLoss: 0.0 GLoss: 0.1061 Sum: 0.1061
+Step 127500/200000 MLoss: 0.0 GLoss: 0.1064 Sum: 0.1064
+Step 128000/200000 MLoss: 0.0 GLoss: 0.1062 Sum: 0.1062
+Step 128500/200000 MLoss: 0.0 GLoss: 0.1055 Sum: 0.1055
+Step 129000/200000 MLoss: 0.0 GLoss: 0.1062 Sum: 0.1062
+Step 129500/200000 MLoss: 0.0 GLoss: 0.1059 Sum: 0.1059
+Step 130000/200000 MLoss: 0.0 GLoss: 0.1059 Sum: 0.1059
+Step 130500/200000 MLoss: 0.0 GLoss: 0.1064 Sum: 0.1064
+Step 131000/200000 MLoss: 0.0 GLoss: 0.1054 Sum: 0.1054
+Step 131500/200000 MLoss: 0.0 GLoss: 0.106 Sum: 0.106
+Step 132000/200000 MLoss: 0.0 GLoss: 0.1063 Sum: 0.1063
+Step 132500/200000 MLoss: 0.0 GLoss: 0.1068 Sum: 0.1068
+Step 133000/200000 MLoss: 0.0 GLoss: 0.1065 Sum: 0.1065
+Step 133500/200000 MLoss: 0.0 GLoss: 0.1056 Sum: 0.1056
+Step 134000/200000 MLoss: 0.0 GLoss: 0.105 Sum: 0.105
+Step 134500/200000 MLoss: 0.0 GLoss: 0.1053 Sum: 0.1053
+Step 135000/200000 MLoss: 0.0 GLoss: 0.1059 Sum: 0.1059
+Step 135500/200000 MLoss: 0.0 GLoss: 0.1054 Sum: 0.1054
+Step 136000/200000 MLoss: 0.0 GLoss: 0.1062 Sum: 0.1062
+Step 136500/200000 MLoss: 0.0 GLoss: 0.1056 Sum: 0.1056
+Step 137000/200000 MLoss: 0.0 GLoss: 0.1049 Sum: 0.1049
+Step 137500/200000 MLoss: 0.0 GLoss: 0.1051 Sum: 0.1051
+Step 138000/200000 MLoss: 0.0 GLoss: 0.105 Sum: 0.105
+Step 138500/200000 MLoss: 0.0 GLoss: 0.1057 Sum: 0.1057
+Step 139000/200000 MLoss: 0.0 GLoss: 0.1047 Sum: 0.1047
+Step 139500/200000 MLoss: 0.0 GLoss: 0.1053 Sum: 0.1053
+Step 140000/200000 MLoss: 0.0 GLoss: 0.1051 Sum: 0.1051
+Step 140500/200000 MLoss: 0.0 GLoss: 0.1051 Sum: 0.1051
+Step 141000/200000 MLoss: 0.0 GLoss: 0.1053 Sum: 0.1053
+Step 141500/200000 MLoss: 0.0 GLoss: 0.1043 Sum: 0.1043
+Step 142000/200000 MLoss: 0.0 GLoss: 0.1049 Sum: 0.1049
+Step 142500/200000 MLoss: 0.0 GLoss: 0.1057 Sum: 0.1057
+Step 143000/200000 MLoss: 0.0 GLoss: 0.1041 Sum: 0.1041
+Step 143500/200000 MLoss: 0.0 GLoss: 0.1049 Sum: 0.1049
+Step 144000/200000 MLoss: 0.0 GLoss: 0.1052 Sum: 0.1052
+Step 144500/200000 MLoss: 0.0 GLoss: 0.1052 Sum: 0.1052
+Step 145000/200000 MLoss: 0.0 GLoss: 0.1043 Sum: 0.1043
+Step 145500/200000 MLoss: 0.0 GLoss: 0.104 Sum: 0.104
+Step 146000/200000 MLoss: 0.0 GLoss: 0.105 Sum: 0.105
+Step 146500/200000 MLoss: 0.0 GLoss: 0.1047 Sum: 0.1047
+Step 147000/200000 MLoss: 0.0 GLoss: 0.1046 Sum: 0.1046
+Step 147500/200000 MLoss: 0.0 GLoss: 0.1044 Sum: 0.1044
+Step 148000/200000 MLoss: 0.0 GLoss: 0.1045 Sum: 0.1045
+Step 148500/200000 MLoss: 0.0 GLoss: 0.1044 Sum: 0.1044
+Step 149000/200000 MLoss: 0.0 GLoss: 0.1039 Sum: 0.1039
+Step 149500/200000 MLoss: 0.0 GLoss: 0.1029 Sum: 0.1029
+Step 150000/200000 MLoss: 0.0 GLoss: 0.1037 Sum: 0.1037
+Step 150500/200000 MLoss: 0.0 GLoss: 0.1048 Sum: 0.1048
+Step 151000/200000 MLoss: 0.0 GLoss: 0.1034 Sum: 0.1034
+Step 151500/200000 MLoss: 0.0 GLoss: 0.1032 Sum: 0.1032
+Step 152000/200000 MLoss: 0.0 GLoss: 0.1038 Sum: 0.1038
+Step 152500/200000 MLoss: 0.0 GLoss: 0.1029 Sum: 0.1029
+Step 153000/200000 MLoss: 0.0 GLoss: 0.1045 Sum: 0.1045
+Step 153500/200000 MLoss: 0.0 GLoss: 0.1032 Sum: 0.1032
+Step 154000/200000 MLoss: 0.0 GLoss: 0.1035 Sum: 0.1035
+Step 154500/200000 MLoss: 0.0 GLoss: 0.1035 Sum: 0.1035
+Step 155000/200000 MLoss: 0.0 GLoss: 0.103 Sum: 0.103
+Step 155500/200000 MLoss: 0.0 GLoss: 0.1025 Sum: 0.1025
+Step 156000/200000 MLoss: 0.0 GLoss: 0.1044 Sum: 0.1044
+Step 156500/200000 MLoss: 0.0 GLoss: 0.1044 Sum: 0.1044
+Step 157000/200000 MLoss: 0.0 GLoss: 0.103 Sum: 0.103
+Step 157500/200000 MLoss: 0.0 GLoss: 0.1022 Sum: 0.1022
+Step 158000/200000 MLoss: 0.0 GLoss: 0.1028 Sum: 0.1028
+Step 158500/200000 MLoss: 0.0 GLoss: 0.1035 Sum: 0.1035
+Step 159000/200000 MLoss: 0.0 GLoss: 0.1032 Sum: 0.1032
+Step 159500/200000 MLoss: 0.0 GLoss: 0.1035 Sum: 0.1035
+Step 160000/200000 MLoss: 0.0 GLoss: 0.1038 Sum: 0.1038
+Step 160500/200000 MLoss: 0.0 GLoss: 0.1026 Sum: 0.1026
+Step 161000/200000 MLoss: 0.0 GLoss: 0.1034 Sum: 0.1034
+Step 161500/200000 MLoss: 0.0 GLoss: 0.1025 Sum: 0.1025
+Step 162000/200000 MLoss: 0.0 GLoss: 0.1023 Sum: 0.1023
+Step 162500/200000 MLoss: 0.0 GLoss: 0.1026 Sum: 0.1026
+Step 163000/200000 MLoss: 0.0 GLoss: 0.1023 Sum: 0.1023
+Step 163500/200000 MLoss: 0.0 GLoss: 0.1022 Sum: 0.1022
+Step 164000/200000 MLoss: 0.0 GLoss: 0.1019 Sum: 0.1019
+Step 164500/200000 MLoss: 0.0 GLoss: 0.102 Sum: 0.102
+Step 165000/200000 MLoss: 0.0 GLoss: 0.1035 Sum: 0.1035
+Step 165500/200000 MLoss: 0.0 GLoss: 0.1025 Sum: 0.1025
+Step 166000/200000 MLoss: 0.0 GLoss: 0.101 Sum: 0.101
+Step 166500/200000 MLoss: 0.0 GLoss: 0.1017 Sum: 0.1017
+Step 167000/200000 MLoss: 0.0 GLoss: 0.1011 Sum: 0.1011
+Step 167500/200000 MLoss: 0.0 GLoss: 0.1018 Sum: 0.1018
+Step 168000/200000 MLoss: 0.0 GLoss: 0.1017 Sum: 0.1017
+Step 168500/200000 MLoss: 0.0 GLoss: 0.1014 Sum: 0.1014
+Step 169000/200000 MLoss: 0.0 GLoss: 0.1013 Sum: 0.1013
+Step 169500/200000 MLoss: 0.0 GLoss: 0.1014 Sum: 0.1014
+Step 170000/200000 MLoss: 0.0 GLoss: 0.1017 Sum: 0.1017
+Step 170500/200000 MLoss: 0.0 GLoss: 0.102 Sum: 0.102
+Step 171000/200000 MLoss: 0.0 GLoss: 0.1017 Sum: 0.1017
+Step 171500/200000 MLoss: 0.0 GLoss: 0.1007 Sum: 0.1007
+Step 172000/200000 MLoss: 0.0 GLoss: 0.1018 Sum: 0.1018
+Step 172500/200000 MLoss: 0.0 GLoss: 0.1005 Sum: 0.1005
+Step 173000/200000 MLoss: 0.0 GLoss: 0.1005 Sum: 0.1005
+Step 173500/200000 MLoss: 0.0 GLoss: 0.1016 Sum: 0.1016
+Step 174000/200000 MLoss: 0.0 GLoss: 0.1006 Sum: 0.1006
+Step 174500/200000 MLoss: 0.0 GLoss: 0.1024 Sum: 0.1024
+Step 175000/200000 MLoss: 0.0 GLoss: 0.1003 Sum: 0.1003
+Step 175500/200000 MLoss: 0.0 GLoss: 0.1 Sum: 0.1
+Step 176000/200000 MLoss: 0.0 GLoss: 0.1013 Sum: 0.1013
+Step 176500/200000 MLoss: 0.0 GLoss: 0.1015 Sum: 0.1015
+Step 177000/200000 MLoss: 0.0 GLoss: 0.1007 Sum: 0.1007
+Step 177500/200000 MLoss: 0.0 GLoss: 0.1012 Sum: 0.1012
+Step 178000/200000 MLoss: 0.0 GLoss: 0.1004 Sum: 0.1004
+Step 178500/200000 MLoss: 0.0 GLoss: 0.1007 Sum: 0.1007
+Step 179000/200000 MLoss: 0.0 GLoss: 0.1012 Sum: 0.1012
+Step 179500/200000 MLoss: 0.0 GLoss: 0.1011 Sum: 0.1011
+Step 180000/200000 MLoss: 0.0 GLoss: 0.1004 Sum: 0.1004
+Step 180500/200000 MLoss: 0.0 GLoss: 0.1002 Sum: 0.1002
+Step 181000/200000 MLoss: 0.0 GLoss: 0.1004 Sum: 0.1004
+Step 181500/200000 MLoss: 0.0 GLoss: 0.0998 Sum: 0.0998
+Step 182000/200000 MLoss: 0.0 GLoss: 0.1007 Sum: 0.1007
+Step 182500/200000 MLoss: 0.0 GLoss: 0.1 Sum: 0.1
+Step 183000/200000 MLoss: 0.0 GLoss: 0.1005 Sum: 0.1005
+Step 183500/200000 MLoss: 0.0 GLoss: 0.1001 Sum: 0.1001
+Step 184000/200000 MLoss: 0.0 GLoss: 0.1001 Sum: 0.1001
+Step 184500/200000 MLoss: 0.0 GLoss: 0.1001 Sum: 0.1001
+Step 185000/200000 MLoss: 0.0 GLoss: 0.1001 Sum: 0.1001
+Step 185500/200000 MLoss: 0.0 GLoss: 0.0993 Sum: 0.0993
+Step 186000/200000 MLoss: 0.0 GLoss: 0.1005 Sum: 0.1005
+Step 186500/200000 MLoss: 0.0 GLoss: 0.0997 Sum: 0.0997
+Step 187000/200000 MLoss: 0.0 GLoss: 0.1002 Sum: 0.1002
+Step 187500/200000 MLoss: 0.0 GLoss: 0.0995 Sum: 0.0995
+Step 188000/200000 MLoss: 0.0 GLoss: 0.1004 Sum: 0.1004
+Step 188500/200000 MLoss: 0.0 GLoss: 0.1 Sum: 0.1
+Step 189000/200000 MLoss: 0.0 GLoss: 0.0991 Sum: 0.0991
+Step 189500/200000 MLoss: 0.0 GLoss: 0.0999 Sum: 0.0999
+Step 190000/200000 MLoss: 0.0 GLoss: 0.099 Sum: 0.099
+Step 190500/200000 MLoss: 0.0 GLoss: 0.0994 Sum: 0.0994
+Step 191000/200000 MLoss: 0.0 GLoss: 0.0997 Sum: 0.0997
+Step 191500/200000 MLoss: 0.0 GLoss: 0.0989 Sum: 0.0989
+Step 192000/200000 MLoss: 0.0 GLoss: 0.0995 Sum: 0.0995
+Step 192500/200000 MLoss: 0.0 GLoss: 0.1 Sum: 0.1
+Step 193000/200000 MLoss: 0.0 GLoss: 0.099 Sum: 0.099
+Step 193500/200000 MLoss: 0.0 GLoss: 0.098 Sum: 0.098
+Step 194000/200000 MLoss: 0.0 GLoss: 0.0985 Sum: 0.0985
+Step 194500/200000 MLoss: 0.0 GLoss: 0.098 Sum: 0.098
+Step 195000/200000 MLoss: 0.0 GLoss: 0.0989 Sum: 0.0989
+Step 195500/200000 MLoss: 0.0 GLoss: 0.0992 Sum: 0.0992
+Step 196000/200000 MLoss: 0.0 GLoss: 0.0985 Sum: 0.0985
+Step 196500/200000 MLoss: 0.0 GLoss: 0.098 Sum: 0.098
+Step 197000/200000 MLoss: 0.0 GLoss: 0.099 Sum: 0.099
+Step 197500/200000 MLoss: 0.0 GLoss: 0.0988 Sum: 0.0988
+Step 198000/200000 MLoss: 0.0 GLoss: 0.0986 Sum: 0.0986
+Step 198500/200000 MLoss: 0.0 GLoss: 0.0996 Sum: 0.0996
+Step 199000/200000 MLoss: 0.0 GLoss: 0.0986 Sum: 0.0986
+Step 199500/200000 MLoss: 0.0 GLoss: 0.0971 Sum: 0.0971
+Step 200000/200000 MLoss: 0.0 GLoss: 0.0987 Sum: 0.0987
+Generating None -> data
+Sample size: 1000
+Sample timestep 1999Sample timestep 1998Sample timestep 1997Sample timestep 1996Sample timestep 1995Sample timestep 1994Sample timestep 1993Sample timestep 1992Sample timestep 1991Sample timestep 1990Sample timestep 1989Sample timestep 1988Sample timestep 1987Sample timestep 1986Sample timestep 1985Sample timestep 1984Sample timestep 1983Sample timestep 1982Sample timestep 1981Sample timestep 1980Sample timestep 1979Sample timestep 1978Sample timestep 1977Sample timestep 1976Sample timestep 1975Sample timestep 1974Sample timestep 1973Sample timestep 1972Sample timestep 1971Sample timestep 1970Sample timestep 1969Sample timestep 1968Sample timestep 1967Sample timestep 1966Sample timestep 1965Sample timestep 1964Sample timestep 1963Sample timestep 1962Sample timestep 1961Sample timestep 1960Sample timestep 1959Sample timestep 1958Sample timestep 1957Sample timestep 1956Sample timestep 1955Sample timestep 1954Sample timestep 1953Sample timestep 1952Sample timestep 1951Sample timestep 1950Sample timestep 1949Sample timestep 1948Sample timestep 1947Sample timestep 1946Sample timestep 1945Sample timestep 1944Sample timestep 1943Sample timestep 1942Sample timestep 1941Sample timestep 1940Sample timestep 1939Sample timestep 1938Sample timestep 1937Sample timestep 1936Sample timestep 1935Sample timestep 1934Sample timestep 1933Sample timestep 1932Sample timestep 1931Sample timestep 1930Sample timestep 1929Sample timestep 1928Sample timestep 1927Sample timestep 1926Sample timestep 1925Sample timestep 1924Sample timestep 1923Sample timestep 1922Sample timestep 1921Sample timestep 1920Sample timestep 1919Sample timestep 1918Sample timestep 1917Sample timestep 1916Sample timestep 1915Sample timestep 1914Sample timestep 1913Sample timestep 1912Sample timestep 1911Sample timestep 1910Sample timestep 1909Sample timestep 1908Sample timestep 1907Sample timestep 1906Sample timestep 1905Sample timestep 1904Sample timestep 1903Sample timestep 1902Sample timestep 1901Sample timestep 1900Sample timestep 1899Sample timestep 1898Sample timestep 1897Sample timestep 1896Sample timestep 1895Sample timestep 1894Sample timestep 1893Sample timestep 1892Sample timestep 1891Sample timestep 1890Sample timestep 1889Sample timestep 1888Sample timestep 1887Sample timestep 1886Sample timestep 1885Sample timestep 1884Sample timestep 1883Sample timestep 1882Sample timestep 1881Sample timestep 1880Sample timestep 1879Sample timestep 1878Sample timestep 1877Sample timestep 1876Sample timestep 1875Sample timestep 1874Sample timestep 1873Sample timestep 1872Sample timestep 1871Sample timestep 1870Sample timestep 1869Sample timestep 1868Sample timestep 1867Sample timestep 1866Sample timestep 1865Sample timestep 1864Sample timestep 1863Sample timestep 1862Sample timestep 1861Sample timestep 1860Sample timestep 1859Sample timestep 1858Sample timestep 1857Sample timestep 1856Sample timestep 1855Sample timestep 1854Sample timestep 1853Sample timestep 1852Sample timestep 1851Sample timestep 1850Sample timestep 1849Sample timestep 1848Sample timestep 1847Sample timestep 1846Sample timestep 1845Sample timestep 1844Sample timestep 1843Sample timestep 1842Sample timestep 1841Sample timestep 1840Sample timestep 1839Sample timestep 1838Sample timestep 1837Sample timestep 1836Sample timestep 1835Sample timestep 1834Sample timestep 1833Sample timestep 1832Sample timestep 1831Sample timestep 1830Sample timestep 1829Sample timestep 1828Sample timestep 1827Sample timestep 1826Sample timestep 1825Sample timestep 1824Sample timestep 1823Sample timestep 1822Sample timestep 1821Sample timestep 1820Sample timestep 1819Sample timestep 1818Sample timestep 1817Sample timestep 1816Sample timestep 1815Sample timestep 1814Sample timestep 1813Sample timestep 1812Sample timestep 1811Sample timestep 1810Sample timestep 1809Sample timestep 1808Sample timestep 1807Sample timestep 1806Sample timestep 1805Sample timestep 1804Sample timestep 1803Sample timestep 1802Sample timestep 1801Sample timestep 1800Sample timestep 1799Sample timestep 1798Sample timestep 1797Sample timestep 1796Sample timestep 1795Sample timestep 1794Sample timestep 1793Sample timestep 1792Sample timestep 1791Sample timestep 1790Sample timestep 1789Sample timestep 1788Sample timestep 1787Sample timestep 1786Sample timestep 1785Sample timestep 1784Sample timestep 1783Sample timestep 1782Sample timestep 1781Sample timestep 1780Sample timestep 1779Sample timestep 1778Sample timestep 1777Sample timestep 1776Sample timestep 1775Sample timestep 1774Sample timestep 1773Sample timestep 1772Sample timestep 1771Sample timestep 1770Sample timestep 1769Sample timestep 1768Sample timestep 1767Sample timestep 1766Sample timestep 1765Sample timestep 1764Sample timestep 1763Sample timestep 1762Sample timestep 1761Sample timestep 1760Sample timestep 1759Sample timestep 1758Sample timestep 1757Sample timestep 1756Sample timestep 1755Sample timestep 1754Sample timestep 1753Sample timestep 1752Sample timestep 1751Sample timestep 1750Sample timestep 1749Sample timestep 1748Sample timestep 1747Sample timestep 1746Sample timestep 1745Sample timestep 1744Sample timestep 1743Sample timestep 1742Sample timestep 1741Sample timestep 1740Sample timestep 1739Sample timestep 1738Sample timestep 1737Sample timestep 1736Sample timestep 1735Sample timestep 1734Sample timestep 1733Sample timestep 1732Sample timestep 1731Sample timestep 1730Sample timestep 1729Sample timestep 1728Sample timestep 1727Sample timestep 1726Sample timestep 1725Sample timestep 1724Sample timestep 1723Sample timestep 1722Sample timestep 1721Sample timestep 1720Sample timestep 1719Sample timestep 1718Sample timestep 1717Sample timestep 1716Sample timestep 1715Sample timestep 1714Sample timestep 1713Sample timestep 1712Sample timestep 1711Sample timestep 1710Sample timestep 1709Sample timestep 1708Sample timestep 1707Sample timestep 1706Sample timestep 1705Sample timestep 1704Sample timestep 1703Sample timestep 1702Sample timestep 1701Sample timestep 1700Sample timestep 1699Sample timestep 1698Sample timestep 1697Sample timestep 1696Sample timestep 1695Sample timestep 1694Sample timestep 1693Sample timestep 1692Sample timestep 1691Sample timestep 1690Sample timestep 1689Sample timestep 1688Sample timestep 1687Sample timestep 1686Sample timestep 1685Sample timestep 1684Sample timestep 1683Sample timestep 1682Sample timestep 1681Sample timestep 1680Sample timestep 1679Sample timestep 1678Sample timestep 1677Sample timestep 1676Sample timestep 1675Sample timestep 1674Sample timestep 1673Sample timestep 1672Sample timestep 1671Sample timestep 1670Sample timestep 1669Sample timestep 1668Sample timestep 1667Sample timestep 1666Sample timestep 1665Sample timestep 1664Sample timestep 1663Sample timestep 1662Sample timestep 1661Sample timestep 1660Sample timestep 1659Sample timestep 1658Sample timestep 1657Sample timestep 1656Sample timestep 1655Sample timestep 1654Sample timestep 1653Sample timestep 1652Sample timestep 1651Sample timestep 1650Sample timestep 1649Sample timestep 1648Sample timestep 1647Sample timestep 1646Sample timestep 1645Sample timestep 1644Sample timestep 1643Sample timestep 1642Sample timestep 1641Sample timestep 1640Sample timestep 1639Sample timestep 1638Sample timestep 1637Sample timestep 1636Sample timestep 1635Sample timestep 1634Sample timestep 1633Sample timestep 1632Sample timestep 1631Sample timestep 1630Sample timestep 1629Sample timestep 1628Sample timestep 1627Sample timestep 1626Sample timestep 1625Sample timestep 1624Sample timestep 1623Sample timestep 1622Sample timestep 1621Sample timestep 1620Sample timestep 1619Sample timestep 1618Sample timestep 1617Sample timestep 1616Sample timestep 1615Sample timestep 1614Sample timestep 1613Sample timestep 1612Sample timestep 1611Sample timestep 1610Sample timestep 1609Sample timestep 1608Sample timestep 1607Sample timestep 1606Sample timestep 1605Sample timestep 1604Sample timestep 1603Sample timestep 1602Sample timestep 1601Sample timestep 1600Sample timestep 1599Sample timestep 1598Sample timestep 1597Sample timestep 1596Sample timestep 1595Sample timestep 1594Sample timestep 1593Sample timestep 1592Sample timestep 1591Sample timestep 1590Sample timestep 1589Sample timestep 1588Sample timestep 1587Sample timestep 1586Sample timestep 1585Sample timestep 1584Sample timestep 1583Sample timestep 1582Sample timestep 1581Sample timestep 1580Sample timestep 1579Sample timestep 1578Sample timestep 1577Sample timestep 1576Sample timestep 1575Sample timestep 1574Sample timestep 1573Sample timestep 1572Sample timestep 1571Sample timestep 1570Sample timestep 1569Sample timestep 1568Sample timestep 1567Sample timestep 1566Sample timestep 1565Sample timestep 1564Sample timestep 1563Sample timestep 1562Sample timestep 1561Sample timestep 1560Sample timestep 1559Sample timestep 1558Sample timestep 1557Sample timestep 1556Sample timestep 1555Sample timestep 1554Sample timestep 1553Sample timestep 1552Sample timestep 1551Sample timestep 1550Sample timestep 1549Sample timestep 1548Sample timestep 1547Sample timestep 1546Sample timestep 1545Sample timestep 1544Sample timestep 1543Sample timestep 1542Sample timestep 1541Sample timestep 1540Sample timestep 1539Sample timestep 1538Sample timestep 1537Sample timestep 1536Sample timestep 1535Sample timestep 1534Sample timestep 1533Sample timestep 1532Sample timestep 1531Sample timestep 1530Sample timestep 1529Sample timestep 1528Sample timestep 1527Sample timestep 1526Sample timestep 1525Sample timestep 1524Sample timestep 1523Sample timestep 1522Sample timestep 1521Sample timestep 1520Sample timestep 1519Sample timestep 1518Sample timestep 1517Sample timestep 1516Sample timestep 1515Sample timestep 1514Sample timestep 1513Sample timestep 1512Sample timestep 1511Sample timestep 1510Sample timestep 1509Sample timestep 1508Sample timestep 1507Sample timestep 1506Sample timestep 1505Sample timestep 1504Sample timestep 1503Sample timestep 1502Sample timestep 1501Sample timestep 1500Sample timestep 1499Sample timestep 1498Sample timestep 1497Sample timestep 1496Sample timestep 1495Sample timestep 1494Sample timestep 1493Sample timestep 1492Sample timestep 1491Sample timestep 1490Sample timestep 1489Sample timestep 1488Sample timestep 1487Sample timestep 1486Sample timestep 1485Sample timestep 1484Sample timestep 1483Sample timestep 1482Sample timestep 1481Sample timestep 1480Sample timestep 1479Sample timestep 1478Sample timestep 1477Sample timestep 1476Sample timestep 1475Sample timestep 1474Sample timestep 1473Sample timestep 1472Sample timestep 1471Sample timestep 1470Sample timestep 1469Sample timestep 1468Sample timestep 1467Sample timestep 1466Sample timestep 1465Sample timestep 1464Sample timestep 1463Sample timestep 1462Sample timestep 1461Sample timestep 1460Sample timestep 1459Sample timestep 1458Sample timestep 1457Sample timestep 1456Sample timestep 1455Sample timestep 1454Sample timestep 1453Sample timestep 1452Sample timestep 1451Sample timestep 1450Sample timestep 1449Sample timestep 1448Sample timestep 1447Sample timestep 1446Sample timestep 1445Sample timestep 1444Sample timestep 1443Sample timestep 1442Sample timestep 1441Sample timestep 1440Sample timestep 1439Sample timestep 1438Sample timestep 1437Sample timestep 1436Sample timestep 1435Sample timestep 1434Sample timestep 1433Sample timestep 1432Sample timestep 1431Sample timestep 1430Sample timestep 1429Sample timestep 1428Sample timestep 1427Sample timestep 1426Sample timestep 1425Sample timestep 1424Sample timestep 1423Sample timestep 1422Sample timestep 1421Sample timestep 1420Sample timestep 1419Sample timestep 1418Sample timestep 1417Sample timestep 1416Sample timestep 1415Sample timestep 1414Sample timestep 1413Sample timestep 1412Sample timestep 1411Sample timestep 1410Sample timestep 1409Sample timestep 1408Sample timestep 1407Sample timestep 1406Sample timestep 1405Sample timestep 1404Sample timestep 1403Sample timestep 1402Sample timestep 1401Sample timestep 1400Sample timestep 1399Sample timestep 1398Sample timestep 1397Sample timestep 1396Sample timestep 1395Sample timestep 1394Sample timestep 1393Sample timestep 1392Sample timestep 1391Sample timestep 1390Sample timestep 1389Sample timestep 1388Sample timestep 1387Sample timestep 1386Sample timestep 1385Sample timestep 1384Sample timestep 1383Sample timestep 1382Sample timestep 1381Sample timestep 1380Sample timestep 1379Sample timestep 1378Sample timestep 1377Sample timestep 1376Sample timestep 1375Sample timestep 1374Sample timestep 1373Sample timestep 1372Sample timestep 1371Sample timestep 1370Sample timestep 1369Sample timestep 1368Sample timestep 1367Sample timestep 1366Sample timestep 1365Sample timestep 1364Sample timestep 1363Sample timestep 1362Sample timestep 1361Sample timestep 1360Sample timestep 1359Sample timestep 1358Sample timestep 1357Sample timestep 1356Sample timestep 1355Sample timestep 1354Sample timestep 1353Sample timestep 1352Sample timestep 1351Sample timestep 1350Sample timestep 1349Sample timestep 1348Sample timestep 1347Sample timestep 1346Sample timestep 1345Sample timestep 1344Sample timestep 1343Sample timestep 1342Sample timestep 1341Sample timestep 1340Sample timestep 1339Sample timestep 1338Sample timestep 1337Sample timestep 1336Sample timestep 1335Sample timestep 1334Sample timestep 1333Sample timestep 1332Sample timestep 1331Sample timestep 1330Sample timestep 1329Sample timestep 1328Sample timestep 1327Sample timestep 1326Sample timestep 1325Sample timestep 1324Sample timestep 1323Sample timestep 1322Sample timestep 1321Sample timestep 1320Sample timestep 1319Sample timestep 1318Sample timestep 1317Sample timestep 1316Sample timestep 1315Sample timestep 1314Sample timestep 1313Sample timestep 1312Sample timestep 1311Sample timestep 1310Sample timestep 1309Sample timestep 1308Sample timestep 1307Sample timestep 1306Sample timestep 1305Sample timestep 1304Sample timestep 1303Sample timestep 1302Sample timestep 1301Sample timestep 1300Sample timestep 1299Sample timestep 1298Sample timestep 1297Sample timestep 1296Sample timestep 1295Sample timestep 1294Sample timestep 1293Sample timestep 1292Sample timestep 1291Sample timestep 1290Sample timestep 1289Sample timestep 1288Sample timestep 1287Sample timestep 1286Sample timestep 1285Sample timestep 1284Sample timestep 1283Sample timestep 1282Sample timestep 1281Sample timestep 1280Sample timestep 1279Sample timestep 1278Sample timestep 1277Sample timestep 1276Sample timestep 1275Sample timestep 1274Sample timestep 1273Sample timestep 1272Sample timestep 1271Sample timestep 1270Sample timestep 1269Sample timestep 1268Sample timestep 1267Sample timestep 1266Sample timestep 1265Sample timestep 1264Sample timestep 1263Sample timestep 1262Sample timestep 1261Sample timestep 1260Sample timestep 1259Sample timestep 1258Sample timestep 1257Sample timestep 1256Sample timestep 1255Sample timestep 1254Sample timestep 1253Sample timestep 1252Sample timestep 1251Sample timestep 1250Sample timestep 1249Sample timestep 1248Sample timestep 1247Sample timestep 1246Sample timestep 1245Sample timestep 1244Sample timestep 1243Sample timestep 1242Sample timestep 1241Sample timestep 1240Sample timestep 1239Sample timestep 1238Sample timestep 1237Sample timestep 1236Sample timestep 1235Sample timestep 1234Sample timestep 1233Sample timestep 1232Sample timestep 1231Sample timestep 1230Sample timestep 1229Sample timestep 1228Sample timestep 1227Sample timestep 1226Sample timestep 1225Sample timestep 1224Sample timestep 1223Sample timestep 1222Sample timestep 1221Sample timestep 1220Sample timestep 1219Sample timestep 1218Sample timestep 1217Sample timestep 1216Sample timestep 1215Sample timestep 1214Sample timestep 1213Sample timestep 1212Sample timestep 1211Sample timestep 1210Sample timestep 1209Sample timestep 1208Sample timestep 1207Sample timestep 1206Sample timestep 1205Sample timestep 1204Sample timestep 1203Sample timestep 1202Sample timestep 1201Sample timestep 1200Sample timestep 1199Sample timestep 1198Sample timestep 1197Sample timestep 1196Sample timestep 1195Sample timestep 1194Sample timestep 1193Sample timestep 1192Sample timestep 1191Sample timestep 1190Sample timestep 1189Sample timestep 1188Sample timestep 1187Sample timestep 1186Sample timestep 1185Sample timestep 1184Sample timestep 1183Sample timestep 1182Sample timestep 1181Sample timestep 1180Sample timestep 1179Sample timestep 1178Sample timestep 1177Sample timestep 1176Sample timestep 1175Sample timestep 1174Sample timestep 1173Sample timestep 1172Sample timestep 1171Sample timestep 1170Sample timestep 1169Sample timestep 1168Sample timestep 1167Sample timestep 1166Sample timestep 1165Sample timestep 1164Sample timestep 1163Sample timestep 1162Sample timestep 1161Sample timestep 1160Sample timestep 1159Sample timestep 1158Sample timestep 1157Sample timestep 1156Sample timestep 1155Sample timestep 1154Sample timestep 1153Sample timestep 1152Sample timestep 1151Sample timestep 1150Sample timestep 1149Sample timestep 1148Sample timestep 1147Sample timestep 1146Sample timestep 1145Sample timestep 1144Sample timestep 1143Sample timestep 1142Sample timestep 1141Sample timestep 1140Sample timestep 1139Sample timestep 1138Sample timestep 1137Sample timestep 1136Sample timestep 1135Sample timestep 1134Sample timestep 1133Sample timestep 1132Sample timestep 1131Sample timestep 1130Sample timestep 1129Sample timestep 1128Sample timestep 1127Sample timestep 1126Sample timestep 1125Sample timestep 1124Sample timestep 1123Sample timestep 1122Sample timestep 1121Sample timestep 1120Sample timestep 1119Sample timestep 1118Sample timestep 1117Sample timestep 1116Sample timestep 1115Sample timestep 1114Sample timestep 1113Sample timestep 1112Sample timestep 1111Sample timestep 1110Sample timestep 1109Sample timestep 1108Sample timestep 1107Sample timestep 1106Sample timestep 1105Sample timestep 1104Sample timestep 1103Sample timestep 1102Sample timestep 1101Sample timestep 1100Sample timestep 1099Sample timestep 1098Sample timestep 1097Sample timestep 1096Sample timestep 1095Sample timestep 1094Sample timestep 1093Sample timestep 1092Sample timestep 1091Sample timestep 1090Sample timestep 1089Sample timestep 1088Sample timestep 1087Sample timestep 1086Sample timestep 1085Sample timestep 1084Sample timestep 1083Sample timestep 1082Sample timestep 1081Sample timestep 1080Sample timestep 1079Sample timestep 1078Sample timestep 1077Sample timestep 1076Sample timestep 1075Sample timestep 1074Sample timestep 1073Sample timestep 1072Sample timestep 1071Sample timestep 1070Sample timestep 1069Sample timestep 1068Sample timestep 1067Sample timestep 1066Sample timestep 1065Sample timestep 1064Sample timestep 1063Sample timestep 1062Sample timestep 1061Sample timestep 1060Sample timestep 1059Sample timestep 1058Sample timestep 1057Sample timestep 1056Sample timestep 1055Sample timestep 1054Sample timestep 1053Sample timestep 1052Sample timestep 1051Sample timestep 1050Sample timestep 1049Sample timestep 1048Sample timestep 1047Sample timestep 1046Sample timestep 1045Sample timestep 1044Sample timestep 1043Sample timestep 1042Sample timestep 1041Sample timestep 1040Sample timestep 1039Sample timestep 1038Sample timestep 1037Sample timestep 1036Sample timestep 1035Sample timestep 1034Sample timestep 1033Sample timestep 1032Sample timestep 1031Sample timestep 1030Sample timestep 1029Sample timestep 1028Sample timestep 1027Sample timestep 1026Sample timestep 1025Sample timestep 1024Sample timestep 1023Sample timestep 1022Sample timestep 1021Sample timestep 1020Sample timestep 1019Sample timestep 1018Sample timestep 1017Sample timestep 1016Sample timestep 1015Sample timestep 1014Sample timestep 1013Sample timestep 1012Sample timestep 1011Sample timestep 1010Sample timestep 1009Sample timestep 1008Sample timestep 1007Sample timestep 1006Sample timestep 1005Sample timestep 1004Sample timestep 1003Sample timestep 1002Sample timestep 1001Sample timestep 1000Sample timestep  999Sample timestep  998Sample timestep  997Sample timestep  996Sample timestep  995Sample timestep  994Sample timestep  993Sample timestep  992Sample timestep  991Sample timestep  990Sample timestep  989Sample timestep  988Sample timestep  987Sample timestep  986Sample timestep  985Sample timestep  984Sample timestep  983Sample timestep  982Sample timestep  981Sample timestep  980Sample timestep  979Sample timestep  978Sample timestep  977Sample timestep  976Sample timestep  975Sample timestep  974Sample timestep  973Sample timestep  972Sample timestep  971Sample timestep  970Sample timestep  969Sample timestep  968Sample timestep  967Sample timestep  966Sample timestep  965Sample timestep  964Sample timestep  963Sample timestep  962Sample timestep  961Sample timestep  960Sample timestep  959Sample timestep  958Sample timestep  957Sample timestep  956Sample timestep  955Sample timestep  954Sample timestep  953Sample timestep  952Sample timestep  951Sample timestep  950Sample timestep  949Sample timestep  948Sample timestep  947Sample timestep  946Sample timestep  945Sample timestep  944Sample timestep  943Sample timestep  942Sample timestep  941Sample timestep  940Sample timestep  939Sample timestep  938Sample timestep  937Sample timestep  936Sample timestep  935Sample timestep  934Sample timestep  933Sample timestep  932Sample timestep  931Sample timestep  930Sample timestep  929Sample timestep  928Sample timestep  927Sample timestep  926Sample timestep  925Sample timestep  924Sample timestep  923Sample timestep  922Sample timestep  921Sample timestep  920Sample timestep  919Sample timestep  918Sample timestep  917Sample timestep  916Sample timestep  915Sample timestep  914Sample timestep  913Sample timestep  912Sample timestep  911Sample timestep  910Sample timestep  909Sample timestep  908Sample timestep  907Sample timestep  906Sample timestep  905Sample timestep  904Sample timestep  903Sample timestep  902Sample timestep  901Sample timestep  900Sample timestep  899Sample timestep  898Sample timestep  897Sample timestep  896Sample timestep  895Sample timestep  894Sample timestep  893Sample timestep  892Sample timestep  891Sample timestep  890Sample timestep  889Sample timestep  888Sample timestep  887Sample timestep  886Sample timestep  885Sample timestep  884Sample timestep  883Sample timestep  882Sample timestep  881Sample timestep  880Sample timestep  879Sample timestep  878Sample timestep  877Sample timestep  876Sample timestep  875Sample timestep  874Sample timestep  873Sample timestep  872Sample timestep  871Sample timestep  870Sample timestep  869Sample timestep  868Sample timestep  867Sample timestep  866Sample timestep  865Sample timestep  864Sample timestep  863Sample timestep  862Sample timestep  861Sample timestep  860Sample timestep  859Sample timestep  858Sample timestep  857Sample timestep  856Sample timestep  855Sample timestep  854Sample timestep  853Sample timestep  852Sample timestep  851Sample timestep  850Sample timestep  849Sample timestep  848Sample timestep  847Sample timestep  846Sample timestep  845Sample timestep  844Sample timestep  843Sample timestep  842Sample timestep  841Sample timestep  840Sample timestep  839Sample timestep  838Sample timestep  837Sample timestep  836Sample timestep  835Sample timestep  834Sample timestep  833Sample timestep  832Sample timestep  831Sample timestep  830Sample timestep  829Sample timestep  828Sample timestep  827Sample timestep  826Sample timestep  825Sample timestep  824Sample timestep  823Sample timestep  822Sample timestep  821Sample timestep  820Sample timestep  819Sample timestep  818Sample timestep  817Sample timestep  816Sample timestep  815Sample timestep  814Sample timestep  813Sample timestep  812Sample timestep  811Sample timestep  810Sample timestep  809Sample timestep  808Sample timestep  807Sample timestep  806Sample timestep  805Sample timestep  804Sample timestep  803Sample timestep  802Sample timestep  801Sample timestep  800Sample timestep  799Sample timestep  798Sample timestep  797Sample timestep  796Sample timestep  795Sample timestep  794Sample timestep  793Sample timestep  792Sample timestep  791Sample timestep  790Sample timestep  789Sample timestep  788Sample timestep  787Sample timestep  786Sample timestep  785Sample timestep  784Sample timestep  783Sample timestep  782Sample timestep  781Sample timestep  780Sample timestep  779Sample timestep  778Sample timestep  777Sample timestep  776Sample timestep  775Sample timestep  774Sample timestep  773Sample timestep  772Sample timestep  771Sample timestep  770Sample timestep  769Sample timestep  768Sample timestep  767Sample timestep  766Sample timestep  765Sample timestep  764Sample timestep  763Sample timestep  762Sample timestep  761Sample timestep  760Sample timestep  759Sample timestep  758Sample timestep  757Sample timestep  756Sample timestep  755Sample timestep  754Sample timestep  753Sample timestep  752Sample timestep  751Sample timestep  750Sample timestep  749Sample timestep  748Sample timestep  747Sample timestep  746Sample timestep  745Sample timestep  744Sample timestep  743Sample timestep  742Sample timestep  741Sample timestep  740Sample timestep  739Sample timestep  738Sample timestep  737Sample timestep  736Sample timestep  735Sample timestep  734Sample timestep  733Sample timestep  732Sample timestep  731Sample timestep  730Sample timestep  729Sample timestep  728Sample timestep  727Sample timestep  726Sample timestep  725Sample timestep  724Sample timestep  723Sample timestep  722Sample timestep  721Sample timestep  720Sample timestep  719Sample timestep  718Sample timestep  717Sample timestep  716Sample timestep  715Sample timestep  714Sample timestep  713Sample timestep  712Sample timestep  711Sample timestep  710Sample timestep  709Sample timestep  708Sample timestep  707Sample timestep  706Sample timestep  705Sample timestep  704Sample timestep  703Sample timestep  702Sample timestep  701Sample timestep  700Sample timestep  699Sample timestep  698Sample timestep  697Sample timestep  696Sample timestep  695Sample timestep  694Sample timestep  693Sample timestep  692Sample timestep  691Sample timestep  690Sample timestep  689Sample timestep  688Sample timestep  687Sample timestep  686Sample timestep  685Sample timestep  684Sample timestep  683Sample timestep  682Sample timestep  681Sample timestep  680Sample timestep  679Sample timestep  678Sample timestep  677Sample timestep  676Sample timestep  675Sample timestep  674Sample timestep  673Sample timestep  672Sample timestep  671Sample timestep  670Sample timestep  669Sample timestep  668Sample timestep  667Sample timestep  666Sample timestep  665Sample timestep  664Sample timestep  663Sample timestep  662Sample timestep  661Sample timestep  660Sample timestep  659Sample timestep  658Sample timestep  657Sample timestep  656Sample timestep  655Sample timestep  654Sample timestep  653Sample timestep  652Sample timestep  651Sample timestep  650Sample timestep  649Sample timestep  648Sample timestep  647Sample timestep  646Sample timestep  645Sample timestep  644Sample timestep  643Sample timestep  642Sample timestep  641Sample timestep  640Sample timestep  639Sample timestep  638Sample timestep  637Sample timestep  636Sample timestep  635Sample timestep  634Sample timestep  633Sample timestep  632Sample timestep  631Sample timestep  630Sample timestep  629Sample timestep  628Sample timestep  627Sample timestep  626Sample timestep  625Sample timestep  624Sample timestep  623Sample timestep  622Sample timestep  621Sample timestep  620Sample timestep  619Sample timestep  618Sample timestep  617Sample timestep  616Sample timestep  615Sample timestep  614Sample timestep  613Sample timestep  612Sample timestep  611Sample timestep  610Sample timestep  609Sample timestep  608Sample timestep  607Sample timestep  606Sample timestep  605Sample timestep  604Sample timestep  603Sample timestep  602Sample timestep  601Sample timestep  600Sample timestep  599Sample timestep  598Sample timestep  597Sample timestep  596Sample timestep  595Sample timestep  594Sample timestep  593Sample timestep  592Sample timestep  591Sample timestep  590Sample timestep  589Sample timestep  588Sample timestep  587Sample timestep  586Sample timestep  585Sample timestep  584Sample timestep  583Sample timestep  582Sample timestep  581Sample timestep  580Sample timestep  579Sample timestep  578Sample timestep  577Sample timestep  576Sample timestep  575Sample timestep  574Sample timestep  573Sample timestep  572Sample timestep  571Sample timestep  570Sample timestep  569Sample timestep  568Sample timestep  567Sample timestep  566Sample timestep  565Sample timestep  564Sample timestep  563Sample timestep  562Sample timestep  561Sample timestep  560Sample timestep  559Sample timestep  558Sample timestep  557Sample timestep  556Sample timestep  555Sample timestep  554Sample timestep  553Sample timestep  552Sample timestep  551Sample timestep  550Sample timestep  549Sample timestep  548Sample timestep  547Sample timestep  546Sample timestep  545Sample timestep  544Sample timestep  543Sample timestep  542Sample timestep  541Sample timestep  540Sample timestep  539Sample timestep  538Sample timestep  537Sample timestep  536Sample timestep  535Sample timestep  534Sample timestep  533Sample timestep  532Sample timestep  531Sample timestep  530Sample timestep  529Sample timestep  528Sample timestep  527Sample timestep  526Sample timestep  525Sample timestep  524Sample timestep  523Sample timestep  522Sample timestep  521Sample timestep  520Sample timestep  519Sample timestep  518Sample timestep  517Sample timestep  516Sample timestep  515Sample timestep  514Sample timestep  513Sample timestep  512Sample timestep  511Sample timestep  510Sample timestep  509Sample timestep  508Sample timestep  507Sample timestep  506Sample timestep  505Sample timestep  504Sample timestep  503Sample timestep  502Sample timestep  501Sample timestep  500Sample timestep  499Sample timestep  498Sample timestep  497Sample timestep  496Sample timestep  495Sample timestep  494Sample timestep  493Sample timestep  492Sample timestep  491Sample timestep  490Sample timestep  489Sample timestep  488Sample timestep  487Sample timestep  486Sample timestep  485Sample timestep  484Sample timestep  483Sample timestep  482Sample timestep  481Sample timestep  480Sample timestep  479Sample timestep  478Sample timestep  477Sample timestep  476Sample timestep  475Sample timestep  474Sample timestep  473Sample timestep  472Sample timestep  471Sample timestep  470Sample timestep  469Sample timestep  468Sample timestep  467Sample timestep  466Sample timestep  465Sample timestep  464Sample timestep  463Sample timestep  462Sample timestep  461Sample timestep  460Sample timestep  459Sample timestep  458Sample timestep  457Sample timestep  456Sample timestep  455Sample timestep  454Sample timestep  453Sample timestep  452Sample timestep  451Sample timestep  450Sample timestep  449Sample timestep  448Sample timestep  447Sample timestep  446Sample timestep  445Sample timestep  444Sample timestep  443Sample timestep  442Sample timestep  441Sample timestep  440Sample timestep  439Sample timestep  438Sample timestep  437Sample timestep  436Sample timestep  435Sample timestep  434Sample timestep  433Sample timestep  432Sample timestep  431Sample timestep  430Sample timestep  429Sample timestep  428Sample timestep  427Sample timestep  426Sample timestep  425Sample timestep  424Sample timestep  423Sample timestep  422Sample timestep  421Sample timestep  420Sample timestep  419Sample timestep  418Sample timestep  417Sample timestep  416Sample timestep  415Sample timestep  414Sample timestep  413Sample timestep  412Sample timestep  411Sample timestep  410Sample timestep  409Sample timestep  408Sample timestep  407Sample timestep  406Sample timestep  405Sample timestep  404Sample timestep  403Sample timestep  402Sample timestep  401Sample timestep  400Sample timestep  399Sample timestep  398Sample timestep  397Sample timestep  396Sample timestep  395Sample timestep  394Sample timestep  393Sample timestep  392Sample timestep  391Sample timestep  390Sample timestep  389Sample timestep  388Sample timestep  387Sample timestep  386Sample timestep  385Sample timestep  384Sample timestep  383Sample timestep  382Sample timestep  381Sample timestep  380Sample timestep  379Sample timestep  378Sample timestep  377Sample timestep  376Sample timestep  375Sample timestep  374Sample timestep  373Sample timestep  372Sample timestep  371Sample timestep  370Sample timestep  369Sample timestep  368Sample timestep  367Sample timestep  366Sample timestep  365Sample timestep  364Sample timestep  363Sample timestep  362Sample timestep  361Sample timestep  360Sample timestep  359Sample timestep  358Sample timestep  357Sample timestep  356Sample timestep  355Sample timestep  354Sample timestep  353Sample timestep  352Sample timestep  351Sample timestep  350Sample timestep  349Sample timestep  348Sample timestep  347Sample timestep  346Sample timestep  345Sample timestep  344Sample timestep  343Sample timestep  342Sample timestep  341Sample timestep  340Sample timestep  339Sample timestep  338Sample timestep  337Sample timestep  336Sample timestep  335Sample timestep  334Sample timestep  333Sample timestep  332Sample timestep  331Sample timestep  330Sample timestep  329Sample timestep  328Sample timestep  327Sample timestep  326Sample timestep  325Sample timestep  324Sample timestep  323Sample timestep  322Sample timestep  321Sample timestep  320Sample timestep  319Sample timestep  318Sample timestep  317Sample timestep  316Sample timestep  315Sample timestep  314Sample timestep  313Sample timestep  312Sample timestep  311Sample timestep  310Sample timestep  309Sample timestep  308Sample timestep  307Sample timestep  306Sample timestep  305Sample timestep  304Sample timestep  303Sample timestep  302Sample timestep  301Sample timestep  300Sample timestep  299Sample timestep  298Sample timestep  297Sample timestep  296Sample timestep  295Sample timestep  294Sample timestep  293Sample timestep  292Sample timestep  291Sample timestep  290Sample timestep  289Sample timestep  288Sample timestep  287Sample timestep  286Sample timestep  285Sample timestep  284Sample timestep  283Sample timestep  282Sample timestep  281Sample timestep  280Sample timestep  279Sample timestep  278Sample timestep  277Sample timestep  276Sample timestep  275Sample timestep  274Sample timestep  273Sample timestep  272Sample timestep  271Sample timestep  270Sample timestep  269Sample timestep  268Sample timestep  267Sample timestep  266Sample timestep  265Sample timestep  264Sample timestep  263Sample timestep  262Sample timestep  261Sample timestep  260Sample timestep  259Sample timestep  258Sample timestep  257Sample timestep  256Sample timestep  255Sample timestep  254Sample timestep  253Sample timestep  252Sample timestep  251Sample timestep  250Sample timestep  249Sample timestep  248Sample timestep  247Sample timestep  246Sample timestep  245Sample timestep  244Sample timestep  243Sample timestep  242Sample timestep  241Sample timestep  240Sample timestep  239Sample timestep  238Sample timestep  237Sample timestep  236Sample timestep  235Sample timestep  234Sample timestep  233Sample timestep  232Sample timestep  231Sample timestep  230Sample timestep  229Sample timestep  228Sample timestep  227Sample timestep  226Sample timestep  225Sample timestep  224Sample timestep  223Sample timestep  222Sample timestep  221Sample timestep  220Sample timestep  219Sample timestep  218Sample timestep  217Sample timestep  216Sample timestep  215Sample timestep  214Sample timestep  213Sample timestep  212Sample timestep  211Sample timestep  210Sample timestep  209Sample timestep  208Sample timestep  207Sample timestep  206Sample timestep  205Sample timestep  204Sample timestep  203Sample timestep  202Sample timestep  201Sample timestep  200Sample timestep  199Sample timestep  198Sample timestep  197Sample timestep  196Sample timestep  195Sample timestep  194Sample timestep  193Sample timestep  192Sample timestep  191Sample timestep  190Sample timestep  189Sample timestep  188Sample timestep  187Sample timestep  186Sample timestep  185Sample timestep  184Sample timestep  183Sample timestep  182Sample timestep  181Sample timestep  180Sample timestep  179Sample timestep  178Sample timestep  177Sample timestep  176Sample timestep  175Sample timestep  174Sample timestep  173Sample timestep  172Sample timestep  171Sample timestep  170Sample timestep  169Sample timestep  168Sample timestep  167Sample timestep  166Sample timestep  165Sample timestep  164Sample timestep  163Sample timestep  162Sample timestep  161Sample timestep  160Sample timestep  159Sample timestep  158Sample timestep  157Sample timestep  156Sample timestep  155Sample timestep  154Sample timestep  153Sample timestep  152Sample timestep  151Sample timestep  150Sample timestep  149Sample timestep  148Sample timestep  147Sample timestep  146Sample timestep  145Sample timestep  144Sample timestep  143Sample timestep  142Sample timestep  141Sample timestep  140Sample timestep  139Sample timestep  138Sample timestep  137Sample timestep  136Sample timestep  135Sample timestep  134Sample timestep  133Sample timestep  132Sample timestep  131Sample timestep  130Sample timestep  129Sample timestep  128Sample timestep  127Sample timestep  126Sample timestep  125Sample timestep  124Sample timestep  123Sample timestep  122Sample timestep  121Sample timestep  120Sample timestep  119Sample timestep  118Sample timestep  117Sample timestep  116Sample timestep  115Sample timestep  114Sample timestep  113Sample timestep  112Sample timestep  111Sample timestep  110Sample timestep  109Sample timestep  108Sample timestep  107Sample timestep  106Sample timestep  105Sample timestep  104Sample timestep  103Sample timestep  102Sample timestep  101Sample timestep  100Sample timestep   99Sample timestep   98Sample timestep   97Sample timestep   96Sample timestep   95Sample timestep   94Sample timestep   93Sample timestep   92Sample timestep   91Sample timestep   90Sample timestep   89Sample timestep   88Sample timestep   87Sample timestep   86Sample timestep   85Sample timestep   84Sample timestep   83Sample timestep   82Sample timestep   81Sample timestep   80Sample timestep   79Sample timestep   78Sample timestep   77Sample timestep   76Sample timestep   75Sample timestep   74Sample timestep   73Sample timestep   72Sample timestep   71Sample timestep   70Sample timestep   69Sample timestep   68Sample timestep   67Sample timestep   66Sample timestep   65Sample timestep   64Sample timestep   63Sample timestep   62Sample timestep   61Sample timestep   60Sample timestep   59Sample timestep   58Sample timestep   57Sample timestep   56Sample timestep   55Sample timestep   54Sample timestep   53Sample timestep   52Sample timestep   51Sample timestep   50Sample timestep   49Sample timestep   48Sample timestep   47Sample timestep   46Sample timestep   45Sample timestep   44Sample timestep   43Sample timestep   42Sample timestep   41Sample timestep   40Sample timestep   39Sample timestep   38Sample timestep   37Sample timestep   36Sample timestep   35Sample timestep   34Sample timestep   33Sample timestep   32Sample timestep   31Sample timestep   30Sample timestep   29Sample timestep   28Sample timestep   27Sample timestep   26Sample timestep   25Sample timestep   24Sample timestep   23Sample timestep   22Sample timestep   21Sample timestep   20Sample timestep   19Sample timestep   18Sample timestep   17Sample timestep   16Sample timestep   15Sample timestep   14Sample timestep   13Sample timestep   12Sample timestep   11Sample timestep   10Sample timestep    9Sample timestep    8Sample timestep    7Sample timestep    6Sample timestep    5Sample timestep    4Sample timestep    3Sample timestep    2Sample timestep    1Sample timestep    0
+run 29: 1000 rows in 3423s

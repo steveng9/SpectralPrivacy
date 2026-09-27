@@ -1,0 +1,17 @@
+{
+ "age": 0.427,
+ "workclass": 0.409,
+ "fnlwgt": 0.518,
+ "education": 0.067,
+ "education-num": 0.067,
+ "marital-status": 0.068,
+ "occupation": 0.296,
+ "relationship": 0.066,
+ "race": 0.503,
+ "sex": 0.104,
+ "capital-gain": 0.515,
+ "capital-loss": 0.711,
+ "hours-per-week": 0.624,
+ "native-country": 0.717,
+ "income": 0.129
+}

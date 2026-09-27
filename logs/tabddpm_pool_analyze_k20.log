@@ -1,0 +1,5 @@
+32 releases, pool 1000, runs per record in/out: 7-27 / 5-25
+graph gower k=20: 14577 edges, 1 component(s); attribute roughness 0.15-0.84
+  dcr      AUC=0.799±0.013  r½(v)=+0.82 Rx(v)=0.85 [Δ vs μ_out CI +0.07,+0.10] Rx(μ_out)=0.77  shares(v)=[0.56, 0.18, 0.27]  dens R²=0.52  resid: r½=+0.66 Rx=0.99 [Rx-1 CI -0.02,+0.01] high=0.37 (p=0.103)
+  melomia  AUC=0.633±0.017  r½(v)=+0.67 Rx(v)=0.90 [Δ vs μ_out CI -0.04,+0.01] Rx(μ_out)=0.92  shares(v)=[0.49, 0.21, 0.3]  dens R²=0.35  resid: r½=+0.54 Rx=0.97 [Rx-1 CI -0.05,-0.01] high=0.35 (p=0.286)
+  rawloss  AUC=0.539±0.019  r½(v)=+0.67 Rx(v)=0.95 [Δ vs μ_out CI +0.05,+0.08] Rx(μ_out)=0.89  shares(v)=[0.47, 0.23, 0.31]  dens R²=0.23  resid: r½=+0.60 Rx=0.94 [Rx-1 CI -0.08,-0.04] high=0.31 (p=0.804)

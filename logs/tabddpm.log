@@ -1,0 +1,111 @@
+[adult] 5000 records, 123 encoded dims, numeric=['age', 'fnlwgt', 'capital-gain', 'capital-loss', 'hours-per-week']
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel0 seed11: 52s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel1 seed11: 53s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel2 seed11: 45s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel3 seed11: 54s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel4 seed11: 48s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel0 seed22: 50s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel1 seed22: 51s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel2 seed22: 51s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel3 seed22: 40s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel4 seed22: 32s
+[adult] graph gower k=10: 36585 edges, 1 component(s)
+  melomia  AUC=0.621±0.018  r(v)=+0.40 Rx(v)=0.93 Rx(mu_out)=0.75 null=1.00±0.010 shares(v)=[0.43, 0.24, 0.33] dens R2=0.13
+  rawloss  AUC=0.538±0.012  r(v)=+0.58 Rx(v)=1.00 Rx(mu_out)=0.74 null=1.00±0.008 shares(v)=[0.37, 0.26, 0.37] dens R2=0.05
+  dcr      AUC=0.794±0.009  r(v)=+0.90 Rx(v)=0.89 Rx(mu_out)=0.52 null=1.00±0.006 shares(v)=[0.47, 0.22, 0.31] dens R2=0.22
+  attribute roughness range: 0.07-0.72
+DONE adult rc=0
+[cdc_diabetes] 5000 records, 65 encoded dims, numeric=['BMI', 'MentHlth', 'PhysHlth']
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel0 seed11: 53s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel1 seed11: 38s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel2 seed11: 51s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel3 seed11: 48s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel4 seed11: 49s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel0 seed22: 49s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel1 seed22: 38s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel2 seed22: 51s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel3 seed22: 41s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel4 seed22: 51s
+[cdc_diabetes] graph gower k=10: 38472 edges, 1 component(s)
+  melomia  AUC=0.655±0.039  r(v)=+0.55 Rx(v)=0.94 Rx(mu_out)=0.75 null=1.00±0.008 shares(v)=[0.43, 0.26, 0.31] dens R2=0.07
+  rawloss  AUC=0.546±0.009  r(v)=+0.57 Rx(v)=0.95 Rx(mu_out)=0.56 null=1.00±0.007 shares(v)=[0.4, 0.29, 0.31] dens R2=0.06
+  dcr      AUC=0.796±0.004  r(v)=+0.94 Rx(v)=0.89 Rx(mu_out)=0.35 null=1.00±0.005 shares(v)=[0.45, 0.25, 0.3] dens R2=0.15
+  attribute roughness range: 0.19-0.67
+DONE cdc_diabetes rc=0
+[california] 5000 records, 9 encoded dims, numeric=['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup', 'Latitude', 'Longitude', 'MedHouseVal']
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel0 seed11: 26s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel1 seed11: 24s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel2 seed11: 34s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel3 seed11: 48s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel4 seed11: 27s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel0 seed22: 38s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel1 seed22: 24s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel2 seed22: 26s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel3 seed22: 34s
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+  probe rel4 seed22: 26s
+[california] graph gower k=10: 33700 edges, 1 component(s)
+  melomia  AUC=0.511±0.007  r(v)=+0.00 Rx(v)=3.07 Rx(mu_out)=0.66 null=0.97±1.159 shares(v)=[-2.43, 2.62, 0.81] dens R2=0.00
+  rawloss  AUC=0.518±0.012  r(v)=+0.15 Rx(v)=0.96 Rx(mu_out)=0.74 null=1.00±0.026 shares(v)=[0.3, 0.29, 0.41] dens R2=0.02
+  dcr      AUC=0.793±0.008  r(v)=+0.93 Rx(v)=0.97 Rx(mu_out)=0.42 null=1.00±0.006 shares(v)=[0.36, 0.32, 0.32] dens R2=0.04
+  attribute roughness range: 0.05-0.17
+DONE california rc=0

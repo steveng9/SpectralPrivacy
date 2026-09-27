@@ -1,0 +1,50 @@
+graph hamming k=20: 7504 edges, 1 component(s), lam2=0.229
+  mst   e   0.10 mm  runs= 64 AUC=0.502 r(v)=-0.02 Rx(v)=1.82 Rx(mu_out)=0.89 shares(v)=[-1.31, 0.08, 2.23] dens R2=0.00
+  mst   e   0.10 kde runs= 64 AUC=0.498 r(v)=+0.08 Rx(v)=0.99 Rx(mu_out)=0.83 shares(v)=[0.78, -0.05, 0.27] dens R2=0.00
+  mst   e   0.10 dcr runs= 64 AUC=0.496 r(v)=+0.05 Rx(v)=1.02 Rx(mu_out)=0.92 shares(v)=[0.59, -0.07, 0.48] dens R2=0.00
+  mst   e   0.32 mm  runs= 64 AUC=0.503 r(v)=-0.09 Rx(v)=1.07 Rx(mu_out)=0.79 shares(v)=[0.0, 0.37, 0.63] dens R2=0.02
+  mst   e   0.32 kde runs= 64 AUC=0.494 r(v)=-0.02 Rx(v)=0.20 Rx(mu_out)=0.89 shares(v)=[0.99, 0.64, -0.62] dens R2=0.01
+  mst   e   0.32 dcr runs= 64 AUC=0.503 r(v)=+0.05 Rx(v)=0.74 Rx(mu_out)=0.82 shares(v)=[0.71, 0.03, 0.27] dens R2=0.01
+  mst   e   1.00 mm  runs= 64 AUC=0.511 r(v)=+0.07 Rx(v)=0.97 Rx(mu_out)=0.82 shares(v)=[0.27, 0.63, 0.1] dens R2=0.00
+  mst   e   1.00 kde runs= 64 AUC=0.504 r(v)=-0.06 Rx(v)=0.75 Rx(mu_out)=0.90 shares(v)=[1.26, -0.34, 0.08] dens R2=0.00
+  mst   e   1.00 dcr runs= 64 AUC=0.507 r(v)=-0.03 Rx(v)=0.93 Rx(mu_out)=0.90 shares(v)=[-0.48, 2.49, -1.01] dens R2=0.00
+  mst   e  10.00 mm  runs= 64 AUC=0.605 r(v)=-0.01 Rx(v)=2.20 Rx(mu_out)=0.95 shares(v)=[-1.64, -0.71, 3.35] dens R2=0.06
+  mst   e  10.00 kde runs= 64 AUC=0.507 r(v)=+0.02 Rx(v)=0.43 Rx(mu_out)=0.89 shares(v)=[1.08, 2.65, -2.73] dens R2=0.00
+  mst   e  10.00 dcr runs= 64 AUC=0.518 r(v)=-0.04 Rx(v)=0.94 Rx(mu_out)=0.99 shares(v)=[0.29, -0.4, 1.11] dens R2=0.00
+  mst   e 100.00 mm  runs= 64 AUC=0.786 r(v)=+0.69 Rx(v)=0.94 Rx(mu_out)=0.93 shares(v)=[0.43, 0.29, 0.28] dens R2=0.23
+  mst   e 100.00 kde runs= 64 AUC=0.511 r(v)=+0.11 Rx(v)=1.00 Rx(mu_out)=0.89 shares(v)=[0.41, 0.26, 0.33] dens R2=0.03
+  mst   e 100.00 dcr runs= 64 AUC=0.521 r(v)=+0.01 Rx(v)=1.07 Rx(mu_out)=0.99 shares(v)=[-1.55, -1.15, 3.7] dens R2=0.01
+  mst   e1000.00 mm  runs= 64 AUC=0.830 r(v)=+0.81 Rx(v)=0.96 Rx(mu_out)=0.93 shares(v)=[0.42, 0.28, 0.3] dens R2=0.20
+  mst   e1000.00 kde runs= 64 AUC=0.513 r(v)=+0.04 Rx(v)=1.05 Rx(mu_out)=0.85 shares(v)=[-0.11, 0.78, 0.32] dens R2=0.01
+  mst   e1000.00 dcr runs= 64 AUC=0.528 r(v)=+0.02 Rx(v)=0.84 Rx(mu_out)=1.00 shares(v)=[0.9, -0.81, 0.91] dens R2=0.01
+  mst   e   3.16 mm  runs= 64 AUC=0.527 r(v)=-0.05 Rx(v)=0.95 Rx(mu_out)=0.99 shares(v)=[0.43, 0.83, -0.26] dens R2=0.03
+  mst   e   3.16 kde runs= 64 AUC=0.502 r(v)=-0.03 Rx(v)=0.98 Rx(mu_out)=0.90 shares(v)=[0.32, 0.56, 0.13] dens R2=0.00
+  mst   e   3.16 dcr runs= 64 AUC=0.513 r(v)=+0.01 Rx(v)=0.19 Rx(mu_out)=0.98 shares(v)=[0.88, -0.79, 0.9] dens R2=0.00
+  mst   e  31.62 mm  runs= 64 AUC=0.683 r(v)=+0.39 Rx(v)=0.88 Rx(mu_out)=0.94 shares(v)=[0.55, 0.25, 0.2] dens R2=0.21
+  mst   e  31.62 kde runs= 64 AUC=0.505 r(v)=+0.07 Rx(v)=1.17 Rx(mu_out)=0.89 shares(v)=[0.12, -0.06, 0.94] dens R2=0.01
+  mst   e  31.62 dcr runs= 64 AUC=0.524 r(v)=+0.08 Rx(v)=0.90 Rx(mu_out)=0.99 shares(v)=[0.69, -0.23, 0.54] dens R2=0.00
+  priv  e   0.10 mm  runs= 64 AUC=0.503 r(v)=+0.01 Rx(v)=0.16 Rx(mu_out)=0.92 shares(v)=[1.11, -0.95, 0.84] dens R2=0.00
+  priv  e   0.10 kde runs= 64 AUC=0.507 r(v)=+nan Rx(v)=nan Rx(mu_out)=1.04 shares(v)=[nan, nan, nan] dens R2=0.02
+  priv  e   0.10 dcr runs= 64 AUC=0.501 r(v)=-0.02 Rx(v)=0.26 Rx(mu_out)=0.78 shares(v)=[2.0, -0.88, -0.12] dens R2=0.00
+  priv  e   0.32 mm  runs= 64 AUC=0.505 r(v)=+0.03 Rx(v)=1.14 Rx(mu_out)=0.95 shares(v)=[0.27, 0.55, 0.19] dens R2=0.03
+  priv  e   0.32 kde runs= 64 AUC=0.504 r(v)=-0.01 Rx(v)=1.31 Rx(mu_out)=0.80 shares(v)=[-0.54, 1.09, 0.45] dens R2=0.01
+  priv  e   0.32 dcr runs= 64 AUC=0.504 r(v)=-0.03 Rx(v)=1.46 Rx(mu_out)=0.90 shares(v)=[0.34, -0.39, 1.05] dens R2=0.00
+  priv  e   1.00 mm  runs= 64 AUC=0.513 r(v)=+0.02 Rx(v)=0.79 Rx(mu_out)=0.96 shares(v)=[1.04, -0.25, 0.21] dens R2=0.03
+  priv  e   1.00 kde runs= 64 AUC=0.502 r(v)=-0.10 Rx(v)=0.95 Rx(mu_out)=0.86 shares(v)=[0.3, 0.28, 0.42] dens R2=0.00
+  priv  e   1.00 dcr runs= 64 AUC=0.508 r(v)=-0.08 Rx(v)=0.99 Rx(mu_out)=0.92 shares(v)=[0.21, 0.56, 0.23] dens R2=0.01
+  priv  e  10.00 mm  runs= 64 AUC=0.556 r(v)=+0.10 Rx(v)=0.98 Rx(mu_out)=0.97 shares(v)=[0.32, 0.34, 0.35] dens R2=0.02
+  priv  e  10.00 kde runs= 64 AUC=0.501 r(v)=+0.07 Rx(v)=0.77 Rx(mu_out)=0.91 shares(v)=[0.85, 0.34, -0.2] dens R2=0.01
+  priv  e  10.00 dcr runs= 64 AUC=0.511 r(v)=-0.01 Rx(v)=0.92 Rx(mu_out)=0.95 shares(v)=[-0.18, 1.78, -0.6] dens R2=0.00
+  priv  e 100.00 mm  runs= 64 AUC=0.729 r(v)=+0.73 Rx(v)=0.96 Rx(mu_out)=0.96 shares(v)=[0.45, 0.28, 0.27] dens R2=0.26
+  priv  e 100.00 kde runs= 64 AUC=0.513 r(v)=-0.07 Rx(v)=1.02 Rx(mu_out)=0.92 shares(v)=[0.07, 0.38, 0.56] dens R2=0.01
+  priv  e 100.00 dcr runs= 64 AUC=0.548 r(v)=+0.12 Rx(v)=0.87 Rx(mu_out)=0.99 shares(v)=[0.68, 0.37, -0.05] dens R2=0.05
+  priv  e1000.00 mm  runs= 64 AUC=0.892 r(v)=+0.85 Rx(v)=0.93 Rx(mu_out)=0.89 shares(v)=[0.5, 0.26, 0.24] dens R2=0.28
+  priv  e1000.00 kde runs= 64 AUC=0.514 r(v)=-0.01 Rx(v)=0.44 Rx(mu_out)=0.94 shares(v)=[1.28, 0.76, -1.04] dens R2=0.00
+  priv  e1000.00 dcr runs= 64 AUC=0.594 r(v)=+0.20 Rx(v)=0.87 Rx(mu_out)=0.98 shares(v)=[0.59, 0.15, 0.26] dens R2=0.08
+  priv  e   3.16 mm  runs= 64 AUC=0.524 r(v)=+0.07 Rx(v)=1.09 Rx(mu_out)=0.98 shares(v)=[0.42, 0.27, 0.32] dens R2=0.02
+  priv  e   3.16 kde runs= 64 AUC=0.505 r(v)=-0.03 Rx(v)=0.89 Rx(mu_out)=0.91 shares(v)=[0.39, 1.44, -0.83] dens R2=0.01
+  priv  e   3.16 dcr runs= 64 AUC=0.510 r(v)=-0.03 Rx(v)=1.07 Rx(mu_out)=0.94 shares(v)=[0.42, -0.34, 0.93] dens R2=0.01
+  priv  e  31.62 mm  runs= 64 AUC=0.600 r(v)=+0.53 Rx(v)=0.95 Rx(mu_out)=0.99 shares(v)=[0.44, 0.27, 0.29] dens R2=0.15
+  priv  e  31.62 kde runs= 64 AUC=0.507 r(v)=-0.05 Rx(v)=1.30 Rx(mu_out)=0.93 shares(v)=[-0.2, 0.04, 1.15] dens R2=0.00
+  priv  e  31.62 dcr runs= 64 AUC=0.524 r(v)=+0.01 Rx(v)=0.34 Rx(mu_out)=0.99 shares(v)=[0.03, -0.69, 1.67] dens R2=0.01
+figures -> /home/golobs/SpectralPrivacy/results/figures
